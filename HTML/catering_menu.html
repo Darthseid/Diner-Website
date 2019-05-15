@@ -1,0 +1,409 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_003{font-family:Times,serif;font-size:26.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Times,serif;font-size:26.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:20.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:20.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:13.1px;color:rgb(251,188,66);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:13.1px;color:rgb(251,188,66);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_002{font-family:Arial,serif;font-size:27.1px;color:rgb(177,39,44);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:27.1px;color:rgb(177,39,44);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:37.0px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:37.0px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:15.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:15.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:11.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:11.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:10.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:10.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:11.1px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:11.1px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_012{font-family:"Book Antiqua",serif;font-size:20.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:"Book Antiqua",serif;font-size:20.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:11.1px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:11.1px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:11.1px;color:rgb(251,188,66);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:11.1px;color:rgb(251,188,66);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:13.1px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:13.1px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:40.0px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:40.0px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_013{font-family:"Book Antiqua",serif;font-size:17.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:"Book Antiqua",serif;font-size:17.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:21.3px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:21.3px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:29.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:29.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:15.1px;color:rgb(43,42,41);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_020{font-family:Arial,serif;font-size:15.1px;color:rgb(43,42,41);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_021{font-family:Arial,serif;font-size:10.1px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_021{font-family:Arial,serif;font-size:10.1px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:10.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:10.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Arial,serif;font-size:9.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_027{font-family:Arial,serif;font-size:9.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:8.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:8.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_026{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_038{font-family:Arial,serif;font-size:8.9px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_038{font-family:Arial,serif;font-size:8.9px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:9.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:9.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Arial,serif;font-size:7.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_029{font-family:Arial,serif;font-size:7.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Arial,serif;font-size:14.1px;color:rgb(254,255,255);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_030{font-family:Arial,serif;font-size:14.1px;color:rgb(254,255,255);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_031{font-family:Arial,serif;font-size:13.1px;color:rgb(251,188,66);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:Arial,serif;font-size:13.1px;color:rgb(251,188,66);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_032{font-family:Arial,serif;font-size:18.2px;color:rgb(177,39,44);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_032{font-family:Arial,serif;font-size:18.2px;color:rgb(177,39,44);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Arial,serif;font-size:6.3px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_034{font-family:Arial,serif;font-size:6.3px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_033{font-family:Arial,serif;font-size:31.2px;color:rgb(177,39,44);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Arial,serif;font-size:31.2px;color:rgb(177,39,44);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_035{font-family:Arial,serif;font-size:7.4px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:Arial,serif;font-size:7.4px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_036{font-family:Arial,serif;font-size:6.9px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_036{font-family:Arial,serif;font-size:6.9px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_037{font-family:Arial,serif;font-size:5.6px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_037{font-family:Arial,serif;font-size:5.6px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="7bc71702-7755-11e9-9d71-0cc47a792c0a_id_7bc71702-7755-11e9-9d71-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-591px;top:0px;width:1182px;height:851px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="7bc71702-7755-11e9-9d71-0cc47a792c0a_id_7bc71702-7755-11e9-9d71-0cc47a792c0a_files/background1.jpg" width=1182 height=851></div>
+<div style="position:absolute;left:869.20px;top:206.19px" class="cls_003"><span class="cls_003">Catering</span></div>
+<div style="position:absolute;left:96.88px;top:235.76px" class="cls_004"><span class="cls_004">VITA BELLA PIZZA…</span></div>
+<div style="position:absolute;left:38.82px;top:260.76px" class="cls_005"><span class="cls_005">YOUR NEIGHBORHOOD PARTY HEADQUARTERS</span></div>
+<div style="position:absolute;left:129.26px;top:275.76px" class="cls_005"><span class="cls_005">FOR OVER 15 YEARS!</span></div>
+<div style="position:absolute;left:85.28px;top:328.58px" class="cls_002"><span class="cls_002">VITA BELLA’S</span></div>
+<div style="position:absolute;left:65.62px;top:356.58px" class="cls_006"><span class="cls_006">PARTY TIPS</span></div>
+<div style="position:absolute;left:32.97px;top:416.00px" class="cls_007"><span class="cls_007">•</span><span class="cls_008"> Always include an RSVP date on your invitations so you can</span></div>
+<div style="position:absolute;left:43.98px;top:431.00px" class="cls_008"><span class="cls_008">order accordingly</span></div>
+<div style="position:absolute;left:32.97px;top:446.00px" class="cls_007"><span class="cls_007">•</span><span class="cls_008"> Place your order early, you can always adjust your</span></div>
+<div style="position:absolute;left:43.98px;top:461.00px" class="cls_008"><span class="cls_008">guest count</span></div>
+<div style="position:absolute;left:32.97px;top:476.00px" class="cls_007"><span class="cls_007">•</span><span class="cls_008"> Give yourself plenty of space for your buffet to avoid</span></div>
+<div style="position:absolute;left:43.98px;top:491.00px" class="cls_008"><span class="cls_008">congestion. Feel free to call and ask a Manager how much</span></div>
+<div style="position:absolute;left:43.98px;top:504.00px" class="cls_008"><span class="cls_008">space you’ll need</span></div>
+<div style="position:absolute;left:32.97px;top:519.00px" class="cls_007"><span class="cls_007">•</span><span class="cls_008"> Count children under 10 as half an adult serving</span></div>
+<div style="position:absolute;left:32.97px;top:536.00px" class="cls_007"><span class="cls_007">•</span><span class="cls_008"> When serving appetizers before a buffet plan on</span></div>
+<div style="position:absolute;left:43.98px;top:551.00px" class="cls_008"><span class="cls_008">1-2 pieces per person</span></div>
+<div style="position:absolute;left:947.50px;top:549.87px" class="cls_017"><span class="cls_017">PERFECT FOR:</span></div>
+<div style="position:absolute;left:831.83px;top:560.87px" class="cls_017"><span class="cls_017">HOLIDAY PARTIES, BUSINESS LUNCHEONS, SCHOOL EVENTS,</span></div>
+<div style="position:absolute;left:32.97px;top:566.00px" class="cls_007"><span class="cls_007">•</span><span class="cls_008"> We recommend 1-2 slices per person for our</span></div>
+<div style="position:absolute;left:827.62px;top:571.87px" class="cls_017"><span class="cls_017">OFFICE PARTIES, BIRTHDAYS, GRADUATIONS, PICNICS & MORE!</span></div>
+<div style="position:absolute;left:43.98px;top:581.00px" class="cls_008"><span class="cls_008">Deep Dish Pizza. Each Extra Large Thin Crust Pizza</span></div>
+<div style="position:absolute;left:816.55px;top:583.87px" class="cls_018"><span class="cls_018">FRESH HOT DELIVERY • CARRYOUT • DINE-IN • CATERING</span></div>
+<div style="position:absolute;left:43.98px;top:594.00px" class="cls_008"><span class="cls_008">serves 5-7 people, depending on how much additional</span></div>
+<div style="position:absolute;left:43.98px;top:607.00px" class="cls_008"><span class="cls_008">food was ordered</span></div>
+<div style="position:absolute;left:884.56px;top:605.10px" class="cls_012"><span class="cls_012">Naperville & Plainfield</span></div>
+<div style="position:absolute;left:32.97px;top:622.00px" class="cls_007"><span class="cls_007">•</span><span class="cls_008"> Plan on 1-2 pieces per person for desserts after a buffet</span></div>
+<div style="position:absolute;left:938.85px;top:627.10px" class="cls_015"><span class="cls_015">12443 S. Rt. 59</span></div>
+<div style="position:absolute;left:32.97px;top:639.00px" class="cls_007"><span class="cls_007">•</span><span class="cls_008"> Most Importantly…</span><span class="cls_009"> </span><span class="cls_010">HAVE FUN & ENJOY</span><span class="cls_008"> our delicious food!</span></div>
+<div style="position:absolute;left:32.97px;top:661.00px" class="cls_011"><span class="cls_011">If you have any questions just give US a call &</span></div>
+<div style="position:absolute;left:844.73px;top:635.77px" class="cls_016"><span class="cls_016">(815) 609-3939</span></div>
+<div style="position:absolute;left:32.97px;top:675.00px" class="cls_011"><span class="cls_011">we’ll be happy to help you!</span></div>
+<div style="position:absolute;left:882.10px;top:684.68px" class="cls_012"><span class="cls_012">Plainfield & Shorewood</span></div>
+<div style="position:absolute;left:942.34px;top:706.68px" class="cls_015"><span class="cls_015">2215 S. Rt. 59</span></div>
+<div style="position:absolute;left:195.00px;top:716.18px" class="cls_013"><span class="cls_013">Naperville & Plainfield</span></div>
+<div style="position:absolute;left:205.05px;top:733.20px" class="cls_014"><span class="cls_014">(815) 609-3939</span></div>
+<div style="position:absolute;left:844.73px;top:715.33px" class="cls_016"><span class="cls_016">(815) 254-2424</span></div>
+<div style="position:absolute;left:192.90px;top:757.87px" class="cls_013"><span class="cls_013">Plainfield & Shorewood</span></div>
+<div style="position:absolute;left:205.05px;top:774.88px" class="cls_014"><span class="cls_014">(815) 254-2424</span></div>
+<div style="position:absolute;left:826.87px;top:766.77px" class="cls_019"><span class="cls_019"> </span><A HREF="http://www.vitabellapizza.com/">www.vitabellapizza.com</A> </div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-591px;top:861px;width:1182px;height:851px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="7bc71702-7755-11e9-9d71-0cc47a792c0a_id_7bc71702-7755-11e9-9d71-0cc47a792c0a_files/background2.jpg" width=1182 height=851></div>
+<div style="position:absolute;left:30.80px;top:185.38px" class="cls_020"><span class="cls_020">APPETIZERS</span></div>
+<div style="position:absolute;left:422.30px;top:185.38px" class="cls_020"><span class="cls_020">MEATS</span></div>
+<div style="position:absolute;left:809.30px;top:185.38px" class="cls_020"><span class="cls_020">PASTA TRAYS</span></div>
+<div style="position:absolute;left:212.98px;top:212.56px" class="cls_021"><span class="cls_021">HALF PAN</span></div>
+<div style="position:absolute;left:310.83px;top:212.56px" class="cls_021"><span class="cls_021">FULL PAN</span></div>
+<div style="position:absolute;left:420.28px;top:212.56px" class="cls_022"><span class="cls_022">Beef By The Pound</span></div>
+<div style="position:absolute;left:606.35px;top:212.56px" class="cls_022"><span class="cls_022">$15.95/lb</span></div>
+<div style="position:absolute;left:807.28px;top:212.81px" class="cls_027"><span class="cls_027">Our sauces are prepared fresh daily using family recipes.</span></div>
+<div style="position:absolute;left:28.78px;top:222.56px" class="cls_022"><span class="cls_022">Serves</span></div>
+<div style="position:absolute;left:225.15px;top:222.56px" class="cls_022"><span class="cls_022">10-15</span></div>
+<div style="position:absolute;left:322.28px;top:222.56px" class="cls_022"><span class="cls_022">18-24</span></div>
+<div style="position:absolute;left:428.28px;top:223.56px" class="cls_023"><span class="cls_023">Includes French Bread, Beef Juice and</span></div>
+<div style="position:absolute;left:807.28px;top:222.81px" class="cls_027"><span class="cls_027">All pastas include Garlic Bread.</span></div>
+<div style="position:absolute;left:428.28px;top:232.56px" class="cls_023"><span class="cls_023">Peppers of your choice (3 lbs minimum)</span></div>
+<div style="position:absolute;left:963.48px;top:234.81px" class="cls_021"><span class="cls_021">HALF PAN    FULL PAN</span></div>
+<div style="position:absolute;left:1107.31px;top:234.81px" class="cls_021"><span class="cls_021">XL PAN</span></div>
+<div style="position:absolute;left:28.79px;top:238.56px" class="cls_022"><span class="cls_022">Combo Appetizer Platter</span></div>
+<div style="position:absolute;left:222.11px;top:238.56px" class="cls_022"><span class="cls_022">$19.99</span></div>
+<div style="position:absolute;left:319.24px;top:238.56px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:614.97px;top:248.56px" class="cls_024"><span class="cls_024">(12) Plain</span></div>
+<div style="position:absolute;left:712.06px;top:248.56px" class="cls_024"><span class="cls_024">(20) Plain</span></div>
+<div style="position:absolute;left:807.28px;top:244.81px" class="cls_022"><span class="cls_022">Serves</span></div>
+<div style="position:absolute;left:981.52px;top:244.81px" class="cls_022"><span class="cls_022">5-8</span></div>
+<div style="position:absolute;left:1045.65px;top:244.81px" class="cls_022"><span class="cls_022">10-14</span></div>
+<div style="position:absolute;left:1112.78px;top:244.81px" class="cls_022"><span class="cls_022">15-20</span></div>
+<div style="position:absolute;left:36.78px;top:249.56px" class="cls_023"><span class="cls_023">Mozzarella Sticks, Zucchini Sticks</span></div>
+<div style="position:absolute;left:211.13px;top:249.31px" class="cls_024"><span class="cls_024">8 Mozzarella Sticks</span></div>
+<div style="position:absolute;left:305.91px;top:249.31px" class="cls_024"><span class="cls_024">16 Mozzarella Sticks</span></div>
+<div style="position:absolute;left:36.78px;top:258.56px" class="cls_023"><span class="cls_023">and Breaded Mushrooms served</span></div>
+<div style="position:absolute;left:208.38px;top:256.31px" class="cls_024"><span class="cls_024">1 lb.  Zucchini Sticks</span></div>
+<div style="position:absolute;left:304.57px;top:256.31px" class="cls_024"><span class="cls_024">2 lbs. Zucchini Sticks</span></div>
+<div style="position:absolute;left:420.28px;top:255.56px" class="cls_022"><span class="cls_022">Homemade Meatballs</span></div>
+<div style="position:absolute;left:613.71px;top:255.56px" class="cls_022"><span class="cls_022">$16.00</span></div>
+<div style="position:absolute;left:710.73px;top:255.56px" class="cls_022"><span class="cls_022">$26.99</span></div>
+<div style="position:absolute;left:200.72px;top:263.31px" class="cls_024"><span class="cls_024">1 lb. Breaded Mushrooms</span></div>
+<div style="position:absolute;left:295.87px;top:263.31px" class="cls_024"><span class="cls_024">2 lbs. Breaded Mushrooms</span></div>
+<div style="position:absolute;left:807.29px;top:260.81px" class="cls_022"><span class="cls_022">Chicken Parmigiana</span></div>
+<div style="position:absolute;left:972.61px;top:260.81px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:1042.50px;top:260.81px" class="cls_022"><span class="cls_022">$49.99</span></div>
+<div style="position:absolute;left:1109.60px;top:260.81px" class="cls_022"><span class="cls_022">$65.99</span></div>
+<div style="position:absolute;left:36.78px;top:267.56px" class="cls_023"><span class="cls_023">with Ranch and Red Sauce</span></div>
+<div style="position:absolute;left:428.28px;top:269.56px" class="cls_023"><span class="cls_023">Add Bread and Peppers</span></div>
+<div style="position:absolute;left:611.55px;top:269.56px" class="cls_023"><span class="cls_023">Add $7.00</span></div>
+<div style="position:absolute;left:705.73px;top:269.56px" class="cls_023"><span class="cls_023">Add $12.00</span></div>
+<div style="position:absolute;left:807.28px;top:276.81px" class="cls_022"><span class="cls_022">Penne Alfredo w/Chicken</span></div>
+<div style="position:absolute;left:972.60px;top:276.81px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:1042.50px;top:276.81px" class="cls_022"><span class="cls_022">$49.99</span></div>
+<div style="position:absolute;left:1109.73px;top:276.81px" class="cls_022"><span class="cls_022">$65.99</span></div>
+<div style="position:absolute;left:28.78px;top:279.56px" class="cls_022"><span class="cls_022">Mozzarella Sticks</span></div>
+<div style="position:absolute;left:222.10px;top:279.56px" class="cls_022"><span class="cls_022">$23.99</span></div>
+<div style="position:absolute;left:319.12px;top:279.56px" class="cls_022"><span class="cls_022">$46.99</span></div>
+<div style="position:absolute;left:614.97px;top:285.56px" class="cls_024"><span class="cls_024">(12) Plain</span></div>
+<div style="position:absolute;left:712.06px;top:285.56px" class="cls_024"><span class="cls_024">(20) Plain</span></div>
+<div style="position:absolute;left:36.78px;top:290.56px" class="cls_023"><span class="cls_023">Served with Ranch dipping sauce</span></div>
+<div style="position:absolute;left:229.47px;top:289.59px" class="cls_024"><span class="cls_024">32 pcs.</span></div>
+<div style="position:absolute;left:326.31px;top:289.59px" class="cls_024"><span class="cls_024">64 pcs.</span></div>
+<div style="position:absolute;left:420.28px;top:292.56px" class="cls_022"><span class="cls_022">Italian Sausages (3-Inch)</span></div>
+<div style="position:absolute;left:613.60px;top:292.56px" class="cls_022"><span class="cls_022">$12.99</span></div>
+<div style="position:absolute;left:710.73px;top:292.56px" class="cls_022"><span class="cls_022">$21.99</span></div>
+<div style="position:absolute;left:807.28px;top:292.81px" class="cls_022"><span class="cls_022">Baked Lasagna</span></div>
+<div style="position:absolute;left:972.60px;top:292.81px" class="cls_022"><span class="cls_022">$32.99</span></div>
+<div style="position:absolute;left:1042.60px;top:292.81px" class="cls_022"><span class="cls_022">$45.99</span></div>
+<div style="position:absolute;left:1109.62px;top:292.81px" class="cls_022"><span class="cls_022">$64.99</span></div>
+<div style="position:absolute;left:28.78px;top:302.56px" class="cls_022"><span class="cls_022">Chicken Tenders</span></div>
+<div style="position:absolute;left:222.10px;top:302.56px" class="cls_022"><span class="cls_022">$19.99</span></div>
+<div style="position:absolute;left:319.12px;top:302.56px" class="cls_022"><span class="cls_022">$38.99</span></div>
+<div style="position:absolute;left:428.28px;top:306.56px" class="cls_023"><span class="cls_023">Add Bread and Peppers</span></div>
+<div style="position:absolute;left:611.55px;top:306.56px" class="cls_023"><span class="cls_023">Add $7.00</span></div>
+<div style="position:absolute;left:705.73px;top:306.56px" class="cls_023"><span class="cls_023">Add $12.00</span></div>
+<div style="position:absolute;left:807.28px;top:308.81px" class="cls_022"><span class="cls_022">Mostaccioli Alforno</span></div>
+<div style="position:absolute;left:972.60px;top:308.81px" class="cls_022"><span class="cls_022">$32.99</span></div>
+<div style="position:absolute;left:1042.50px;top:308.81px" class="cls_022"><span class="cls_022">$48.99</span></div>
+<div style="position:absolute;left:1109.63px;top:308.81px" class="cls_022"><span class="cls_022">$64.99</span></div>
+<div style="position:absolute;left:36.78px;top:313.56px" class="cls_023"><span class="cls_023">All white meat tenders with</span></div>
+<div style="position:absolute;left:229.47px;top:313.90px" class="cls_024"><span class="cls_024">18 pcs.</span></div>
+<div style="position:absolute;left:326.31px;top:313.90px" class="cls_024"><span class="cls_024">36 pcs.</span></div>
+<div style="position:absolute;left:36.78px;top:322.56px" class="cls_023"><span class="cls_023">BBQ Sauce or Honey Mustard</span></div>
+<div style="position:absolute;left:603.27px;top:322.56px" class="cls_024"><span class="cls_024">Full Pan (24 pcs)</span></div>
+<div style="position:absolute;left:701.55px;top:322.56px" class="cls_024"><span class="cls_024">XL Pan (40 pcs)</span></div>
+<div style="position:absolute;left:807.28px;top:324.81px" class="cls_022"><span class="cls_022">Ravioli Pomodoro</span></div>
+<div style="position:absolute;left:972.60px;top:324.81px" class="cls_022"><span class="cls_022">$29.99</span></div>
+<div style="position:absolute;left:1042.60px;top:324.81px" class="cls_022"><span class="cls_022">$42.99</span></div>
+<div style="position:absolute;left:1110.32px;top:324.81px" class="cls_022"><span class="cls_022">$57.99</span></div>
+<div style="position:absolute;left:420.28px;top:329.56px" class="cls_022"><span class="cls_022">Fried Chicken Trays</span></div>
+<div style="position:absolute;left:613.71px;top:329.56px" class="cls_022"><span class="cls_022">$41.00</span></div>
+<div style="position:absolute;left:710.73px;top:329.56px" class="cls_022"><span class="cls_022">$68.00</span></div>
+<div style="position:absolute;left:28.78px;top:334.56px" class="cls_022"><span class="cls_022">Buffalo Wings</span></div>
+<div style="position:absolute;left:222.00px;top:334.56px" class="cls_022"><span class="cls_022">$34.99</span></div>
+<div style="position:absolute;left:319.13px;top:334.56px" class="cls_022"><span class="cls_022">$64.99</span></div>
+<div style="position:absolute;left:229.39px;top:344.35px" class="cls_024"><span class="cls_024">36 pcs.</span></div>
+<div style="position:absolute;left:326.52px;top:344.35px" class="cls_024"><span class="cls_024">72 pcs.</span></div>
+<div style="position:absolute;left:807.28px;top:340.81px" class="cls_022"><span class="cls_022">Penne Broccoli</span></div>
+<div style="position:absolute;left:972.60px;top:340.81px" class="cls_022"><span class="cls_022">$29.99</span></div>
+<div style="position:absolute;left:1042.50px;top:340.81px" class="cls_022"><span class="cls_022">$44.99</span></div>
+<div style="position:absolute;left:1109.63px;top:340.81px" class="cls_022"><span class="cls_022">$60.99</span></div>
+<div style="position:absolute;left:36.78px;top:345.56px" class="cls_023"><span class="cls_023">Served with your choice of Ranch</span></div>
+<div style="position:absolute;left:420.28px;top:348.56px" class="cls_022"><span class="cls_022">Chicken By The Piece</span></div>
+<div style="position:absolute;left:616.77px;top:348.56px" class="cls_022"><span class="cls_022">$1.75</span></div>
+<div style="position:absolute;left:36.78px;top:354.56px" class="cls_023"><span class="cls_023">or Bleu Cheese dipping sauce</span></div>
+<div style="position:absolute;left:428.28px;top:359.56px" class="cls_023"><span class="cls_023">(20 pcs minimum)</span></div>
+<div style="position:absolute;left:807.28px;top:356.81px" class="cls_022"><span class="cls_022">Fettuccine Alfredo</span></div>
+<div style="position:absolute;left:972.60px;top:356.81px" class="cls_022"><span class="cls_022">$29.99</span></div>
+<div style="position:absolute;left:1042.60px;top:356.81px" class="cls_022"><span class="cls_022">$42.99</span></div>
+<div style="position:absolute;left:1109.62px;top:356.81px" class="cls_022"><span class="cls_022">$64.99</span></div>
+<div style="position:absolute;left:28.78px;top:366.56px" class="cls_022"><span class="cls_022">Homemade Garlic Bread</span></div>
+<div style="position:absolute;left:222.10px;top:366.56px" class="cls_022"><span class="cls_022">$15.99</span></div>
+<div style="position:absolute;left:319.23px;top:366.56px" class="cls_022"><span class="cls_022">$22.99</span></div>
+<div style="position:absolute;left:229.47px;top:376.24px" class="cls_024"><span class="cls_024">32 pcs.</span></div>
+<div style="position:absolute;left:326.31px;top:376.24px" class="cls_024"><span class="cls_024">48 pcs.</span></div>
+<div style="position:absolute;left:807.28px;top:372.81px" class="cls_022"><span class="cls_022">Meat Ravioli</span></div>
+<div style="position:absolute;left:972.60px;top:372.81px" class="cls_022"><span class="cls_022">$29.99</span></div>
+<div style="position:absolute;left:1042.60px;top:372.81px" class="cls_022"><span class="cls_022">$42.99</span></div>
+<div style="position:absolute;left:1109.62px;top:372.81px" class="cls_022"><span class="cls_022">$64.99</span></div>
+<div style="position:absolute;left:28.78px;top:388.56px" class="cls_022"><span class="cls_022">Homemade Breadsticks</span></div>
+<div style="position:absolute;left:222.10px;top:388.56px" class="cls_022"><span class="cls_022">$10.99</span></div>
+<div style="position:absolute;left:319.23px;top:388.56px" class="cls_022"><span class="cls_022">$22.99</span></div>
+<div style="position:absolute;left:807.28px;top:388.81px" class="cls_022"><span class="cls_022">Baked Mostaccioli</span></div>
+<div style="position:absolute;left:972.60px;top:388.81px" class="cls_022"><span class="cls_022">$28.49</span></div>
+<div style="position:absolute;left:1042.60px;top:388.81px" class="cls_022"><span class="cls_022">$42.99</span></div>
+<div style="position:absolute;left:1109.49px;top:388.81px" class="cls_022"><span class="cls_022">$64.99</span></div>
+<div style="position:absolute;left:422.30px;top:388.94px" class="cls_020"><span class="cls_020">SALAD TRAYS</span></div>
+<div style="position:absolute;left:36.78px;top:399.56px" class="cls_023"><span class="cls_023">With Red Sauce</span></div>
+<div style="position:absolute;left:229.68px;top:399.11px" class="cls_024"><span class="cls_024">1.5 lbs.</span></div>
+<div style="position:absolute;left:329.60px;top:399.11px" class="cls_024"><span class="cls_024">3 lbs.</span></div>
+<div style="position:absolute;left:807.28px;top:404.81px" class="cls_022"><span class="cls_022">Shells and Cheese</span></div>
+<div style="position:absolute;left:972.60px;top:404.81px" class="cls_022"><span class="cls_022">$29.99</span></div>
+<div style="position:absolute;left:1042.60px;top:404.81px" class="cls_022"><span class="cls_022">$42.99</span></div>
+<div style="position:absolute;left:1109.62px;top:404.81px" class="cls_022"><span class="cls_022">$64.99</span></div>
+<div style="position:absolute;left:576.48px;top:416.12px" class="cls_021"><span class="cls_021">HALF PAN    FULL PAN     XL PAN</span></div>
+<div style="position:absolute;left:807.28px;top:420.81px" class="cls_022"><span class="cls_022">Mostaccioli or Linguini</span></div>
+<div style="position:absolute;left:972.60px;top:420.81px" class="cls_022"><span class="cls_022">$25.49</span></div>
+<div style="position:absolute;left:1042.50px;top:420.81px" class="cls_022"><span class="cls_022">$38.99</span></div>
+<div style="position:absolute;left:1109.73px;top:420.81px" class="cls_022"><span class="cls_022">$55.99</span></div>
+<div style="position:absolute;left:420.28px;top:426.12px" class="cls_022"><span class="cls_022">Serves</span></div>
+<div style="position:absolute;left:594.52px;top:426.12px" class="cls_022"><span class="cls_022">5-8</span></div>
+<div style="position:absolute;left:658.65px;top:426.12px" class="cls_022"><span class="cls_022">10-14</span></div>
+<div style="position:absolute;left:725.78px;top:426.12px" class="cls_022"><span class="cls_022">15-20</span></div>
+<div style="position:absolute;left:30.80px;top:427.21px" class="cls_020"><span class="cls_020">CHICKEN ENTREES</span></div>
+<div style="position:absolute;left:807.28px;top:436.81px" class="cls_022"><span class="cls_022">Angel Hair Pomodoro</span></div>
+<div style="position:absolute;left:972.60px;top:436.81px" class="cls_022"><span class="cls_022">$26.99</span></div>
+<div style="position:absolute;left:1042.60px;top:436.81px" class="cls_022"><span class="cls_022">$42.99</span></div>
+<div style="position:absolute;left:1109.62px;top:436.81px" class="cls_022"><span class="cls_022">$64.99</span></div>
+<div style="position:absolute;left:420.29px;top:442.12px" class="cls_022"><span class="cls_022">House Salad</span></div>
+<div style="position:absolute;left:585.61px;top:442.12px" class="cls_022"><span class="cls_022">$19.99</span></div>
+<div style="position:absolute;left:655.60px;top:442.12px" class="cls_022"><span class="cls_022">$25.99</span></div>
+<div style="position:absolute;left:722.60px;top:442.12px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:212.98px;top:454.39px" class="cls_021"><span class="cls_021">HALF PAN</span></div>
+<div style="position:absolute;left:420.28px;top:458.12px" class="cls_022"><span class="cls_022">Caesar Salad</span></div>
+<div style="position:absolute;left:585.60px;top:458.12px" class="cls_022"><span class="cls_022">$19.99</span></div>
+<div style="position:absolute;left:655.60px;top:458.12px" class="cls_022"><span class="cls_022">$25.99</span></div>
+<div style="position:absolute;left:722.73px;top:458.12px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:28.78px;top:464.39px" class="cls_022"><span class="cls_022">Serves</span></div>
+<div style="position:absolute;left:231.14px;top:464.39px" class="cls_022"><span class="cls_022">4-6</span></div>
+<div style="position:absolute;left:420.28px;top:474.12px" class="cls_022"><span class="cls_022">Chicken Caesar Salad</span></div>
+<div style="position:absolute;left:586.32px;top:474.12px" class="cls_022"><span class="cls_022">$27.49</span></div>
+<div style="position:absolute;left:656.32px;top:474.12px" class="cls_022"><span class="cls_022">$37.99</span></div>
+<div style="position:absolute;left:722.62px;top:474.12px" class="cls_022"><span class="cls_022">$46.99</span></div>
+<div style="position:absolute;left:28.78px;top:480.39px" class="cls_022"><span class="cls_022">Chicken Breast Vesuvio*</span></div>
+<div style="position:absolute;left:222.10px;top:480.39px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:809.30px;top:474.47px" class="cls_020"><span class="cls_020">DESSERT</span></div>
+<div style="position:absolute;left:420.28px;top:490.12px" class="cls_022"><span class="cls_022">Walnut Gorgonzola</span></div>
+<div style="position:absolute;left:585.60px;top:490.12px" class="cls_022"><span class="cls_022">$28.99</span></div>
+<div style="position:absolute;left:655.50px;top:490.12px" class="cls_022"><span class="cls_022">$39.99</span></div>
+<div style="position:absolute;left:722.63px;top:490.12px" class="cls_022"><span class="cls_022">$49.99</span></div>
+<div style="position:absolute;left:28.78px;top:496.39px" class="cls_022"><span class="cls_022">Chicken Marsala*</span></div>
+<div style="position:absolute;left:222.23px;top:496.39px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:807.28px;top:501.66px" class="cls_022"><span class="cls_022">Tiramisu (10 minimum)</span></div>
+<div style="position:absolute;left:1028.54px;top:501.66px" class="cls_022"><span class="cls_022">$2.99</span></div>
+<div style="position:absolute;left:28.78px;top:512.39px" class="cls_022"><span class="cls_022">Chicken Florentine*</span></div>
+<div style="position:absolute;left:222.23px;top:512.39px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:807.28px;top:517.66px" class="cls_022"><span class="cls_022">Cannoli (10 minimum)</span></div>
+<div style="position:absolute;left:1028.66px;top:517.66px" class="cls_022"><span class="cls_022">$1.99</span></div>
+<div style="position:absolute;left:28.78px;top:528.39px" class="cls_022"><span class="cls_022">Chicken Limone*</span></div>
+<div style="position:absolute;left:222.23px;top:528.39px" class="cls_022"><span class="cls_022">$35.99</span></div>
+<div style="position:absolute;left:419.54px;top:525.79px" class="cls_020"><span class="cls_020">EXTRAS</span></div>
+<div style="position:absolute;left:807.28px;top:533.66px" class="cls_022"><span class="cls_022">Homemade Cheesecake (10 minimum)</span></div>
+<div style="position:absolute;left:1028.54px;top:533.66px" class="cls_022"><span class="cls_022">$2.50</span></div>
+<div style="position:absolute;left:28.78px;top:549.39px" class="cls_026"><span class="cls_026">*Only available at Vita Bella Naperville/Plainfield location at 12443 S. Rout 59, Plainfield IL 60585</span></div>
+<div style="position:absolute;left:807.28px;top:549.66px" class="cls_022"><span class="cls_022">Giant Cookie (10 minimum)</span></div>
+<div style="position:absolute;left:1028.66px;top:549.66px" class="cls_022"><span class="cls_022">$1.99</span></div>
+<div style="position:absolute;left:417.53px;top:552.98px" class="cls_022"><span class="cls_022">Sterno</span></div>
+<div style="position:absolute;left:638.79px;top:552.98px" class="cls_022"><span class="cls_022">$1.50</span></div>
+<div style="position:absolute;left:669.53px;top:554.98px" class="cls_023"><span class="cls_023">each</span></div>
+<div style="position:absolute;left:807.28px;top:565.66px" class="cls_022"><span class="cls_022">Assortment Tray (Serves 10 people)</span></div>
+<div style="position:absolute;left:1025.70px;top:565.66px" class="cls_022"><span class="cls_022">$29.00</span></div>
+<div style="position:absolute;left:417.53px;top:568.98px" class="cls_022"><span class="cls_022">Table Setting</span></div>
+<div style="position:absolute;left:639.02px;top:568.98px" class="cls_022"><span class="cls_022">$3.00</span></div>
+<div style="position:absolute;left:425.53px;top:579.98px" class="cls_023"><span class="cls_023">10 sets - plate, fork, knife, napkin</span></div>
+<div style="position:absolute;left:30.80px;top:576.67px" class="cls_020"><span class="cls_020">BEVERAGES</span></div>
+<div style="position:absolute;left:417.53px;top:593.98px" class="cls_022"><span class="cls_022">Serving Utensils</span></div>
+<div style="position:absolute;left:638.89px;top:593.98px" class="cls_022"><span class="cls_022">$5.00</span></div>
+<div style="position:absolute;left:858.74px;top:596.24px" class="cls_038"><span class="cls_038">MENU & PRICES SUBJECT TO CHANGE WITHOUT NOTICE</span></div>
+<div style="position:absolute;left:28.78px;top:603.85px" class="cls_022"><span class="cls_022">Coca Cola Products</span></div>
+<div style="position:absolute;left:168.87px;top:603.85px" class="cls_022"><span class="cls_022">2-Liters</span></div>
+<div style="position:absolute;left:250.03px;top:603.85px" class="cls_022"><span class="cls_022">Can</span></div>
+<div style="position:absolute;left:310.42px;top:603.85px" class="cls_022"><span class="cls_022">6 Pack</span></div>
+<div style="position:absolute;left:417.53px;top:612.98px" class="cls_028"><span class="cls_028">FREE Rental of Chafing Dishes wit $10 deposit on each</span></div>
+<div style="position:absolute;left:174.04px;top:615.85px" class="cls_022"><span class="cls_022">$5.59</span></div>
+<div style="position:absolute;left:246.04px;top:615.85px" class="cls_022"><span class="cls_022">$0.99</span></div>
+<div style="position:absolute;left:313.17px;top:615.85px" class="cls_022"><span class="cls_022">$4.99</span></div>
+<div style="position:absolute;left:1135.01px;top:635.09px" class="cls_029"><span class="cls_029">Rev 11/1/18</span></div>
+<div style="position:absolute;left:33.91px;top:654.43px" class="cls_030"><span class="cls_030">PARTY PACKAGE #1</span></div>
+<div style="position:absolute;left:228.34px;top:654.43px" class="cls_030"><span class="cls_030">PARTY PACKAGE #2</span></div>
+<div style="position:absolute;left:424.02px;top:654.43px" class="cls_030"><span class="cls_030">PARTY PACKAGE #3</span></div>
+<div style="position:absolute;left:618.46px;top:654.43px" class="cls_030"><span class="cls_030">PARTY PACKAGE #4</span></div>
+<div style="position:absolute;left:815.22px;top:654.43px" class="cls_030"><span class="cls_030">PARTY PACKAGE #5</span></div>
+<div style="position:absolute;left:626.73px;top:669.43px" class="cls_030"><span class="cls_030">BEEF & PASTA</span></div>
+<div style="position:absolute;left:824.07px;top:669.43px" class="cls_030"><span class="cls_030">MEAT LOVERS</span></div>
+<div style="position:absolute;left:30.24px;top:677.17px" class="cls_031"><span class="cls_031">GROUPS FROM 25-35</span></div>
+<div style="position:absolute;left:224.67px;top:677.17px" class="cls_031"><span class="cls_031">GROUPS FROM 35-45</span></div>
+<div style="position:absolute;left:420.48px;top:677.17px" class="cls_031"><span class="cls_031">GROUPS FROM 10-20</span></div>
+<div style="position:absolute;left:614.77px;top:691.92px" class="cls_031"><span class="cls_031">GROUPS FROM 20-30</span></div>
+<div style="position:absolute;left:811.54px;top:691.92px" class="cls_031"><span class="cls_031">GROUPS FROM 25-35</span></div>
+<div style="position:absolute;left:327.08px;top:690.70px" class="cls_032"><span class="cls_032">99</span></div>
+<div style="position:absolute;left:134.01px;top:710.94px" class="cls_034"><span class="cls_034">+ TAX</span></div>
+<div style="position:absolute;left:251.86px;top:688.09px" class="cls_032"><span class="cls_032"><sup>$</sup></span><span class="cls_033">199</span></div>
+<div style="position:absolute;left:326.73px;top:710.94px" class="cls_034"><span class="cls_034">+ TAX</span></div>
+<div style="position:absolute;left:514.04px;top:712.38px" class="cls_034"><span class="cls_034">+ TAX</span></div>
+<div style="position:absolute;left:458.31px;top:688.09px" class="cls_032"><span class="cls_032"><sup>$</sup></span><span class="cls_033">79</span><span class="cls_032"><sup>99</sup></span></div>
+<div style="position:absolute;left:22.01px;top:727.06px" class="cls_035"><span class="cls_035">• 3 LBS OF HOMEMADE ITALIAN BEEF</span></div>
+<div style="position:absolute;left:216.45px;top:727.06px" class="cls_035"><span class="cls_035">• 4 LBS OF HOMEMADE ITALIAN BEEF</span></div>
+<div style="position:absolute;left:411.86px;top:727.06px" class="cls_035"><span class="cls_035">• XL PAN OF MOSTACCIOLI OR LINGUINI</span></div>
+<div style="position:absolute;left:641.35px;top:702.85px" class="cls_032"><span class="cls_032"><sup>$</sup></span><span class="cls_033">109</span><span class="cls_032"><sup>99</sup></span></div>
+<div style="position:absolute;left:717.97px;top:727.23px" class="cls_034"><span class="cls_034">+ TAX</span></div>
+<div style="position:absolute;left:915.04px;top:727.23px" class="cls_034"><span class="cls_034">+ TAX</span></div>
+<div style="position:absolute;left:838.12px;top:702.85px" class="cls_032"><span class="cls_032"><sup>$</sup></span><span class="cls_033">149</span><span class="cls_032"><sup>99</sup></span></div>
+<div style="position:absolute;left:29.02px;top:735.06px" class="cls_035"><span class="cls_035">w/FRENCH BREAD & PEPPERS</span></div>
+<div style="position:absolute;left:223.45px;top:735.06px" class="cls_035"><span class="cls_035">w/FRENCH BREAD & PEPPERS</span></div>
+<div style="position:absolute;left:418.86px;top:734.55px" class="cls_036"><span class="cls_036">(MARINARA OR MEAT SAUCE)</span></div>
+<div style="position:absolute;left:606.55px;top:741.81px" class="cls_035"><span class="cls_035">• 3.5 LBS OF HOMEMADE ITALIAN BEEF</span></div>
+<div style="position:absolute;left:803.32px;top:741.81px" class="cls_035"><span class="cls_035">• 4 LBS OF HOMEMADE ITALIAN BEEF</span></div>
+<div style="position:absolute;left:22.02px;top:747.06px" class="cls_035"><span class="cls_035">• FULL PAN OF MOSTACCIOLI OR LINGUINI</span></div>
+<div style="position:absolute;left:216.45px;top:747.06px" class="cls_035"><span class="cls_035">• XL PAN OF MOSTACCIOLI OR LINGUINI</span></div>
+<div style="position:absolute;left:411.86px;top:746.06px" class="cls_035"><span class="cls_035">• 36 SLICES OF GARLIC BREAD</span></div>
+<div style="position:absolute;left:613.56px;top:749.82px" class="cls_035"><span class="cls_035">w/FRENCH BREAD & PEPPERS</span></div>
+<div style="position:absolute;left:812.76px;top:749.82px" class="cls_035"><span class="cls_035">w/FRENCH BREAD & PEPPERS</span></div>
+<div style="position:absolute;left:29.01px;top:754.55px" class="cls_036"><span class="cls_036">(MARINARA OR MEAT SAUCE)</span></div>
+<div style="position:absolute;left:223.45px;top:754.55px" class="cls_036"><span class="cls_036">(MARINARA OR MEAT SAUCE)</span></div>
+<div style="position:absolute;left:994.55px;top:743.17px" class="cls_013"><span class="cls_013">Naperville & Plainfield</span></div>
+<div style="position:absolute;left:411.86px;top:758.06px" class="cls_035"><span class="cls_035">• XL PAN OF SALAD</span></div>
+<div style="position:absolute;left:606.56px;top:761.81px" class="cls_035"><span class="cls_035">• XL PAN OF MOSTACCIOLI OR LINGUINI</span></div>
+<div style="position:absolute;left:803.33px;top:761.81px" class="cls_035"><span class="cls_035">• 20-3” SAUSAGES (RED SAUCE OR GRAVY)</span></div>
+<div style="position:absolute;left:22.01px;top:766.06px" class="cls_035"><span class="cls_035">• 24 SLICES OF GARLIC BREAD</span></div>
+<div style="position:absolute;left:216.45px;top:766.06px" class="cls_035"><span class="cls_035">• 36 SLICES OF GARLIC BREAD</span></div>
+<div style="position:absolute;left:418.86px;top:765.55px" class="cls_036"><span class="cls_036">(HOUSE OR CAESAR)</span></div>
+<div style="position:absolute;left:613.55px;top:769.30px" class="cls_036"><span class="cls_036">(MARINARA OR MEAT SAUCE)</span></div>
+<div style="position:absolute;left:810.32px;top:769.82px" class="cls_035"><span class="cls_035">WITH FRENCH BREAD & PEPPERS</span></div>
+<div style="position:absolute;left:1004.61px;top:760.19px" class="cls_014"><span class="cls_014">(815) 609-3939</span></div>
+<div style="position:absolute;left:22.01px;top:778.06px" class="cls_035"><span class="cls_035">• 20 PCS FRIED CHICKEN</span></div>
+<div style="position:absolute;left:216.45px;top:778.06px" class="cls_035"><span class="cls_035">• 30 PCS FRIED CHICKEN</span></div>
+<div style="position:absolute;left:606.55px;top:780.81px" class="cls_035"><span class="cls_035">• 28 SLICES OF GARLIC BREAD</span></div>
+<div style="position:absolute;left:803.32px;top:781.81px" class="cls_035"><span class="cls_035">• 20 PCS FRIED CHICKEN</span></div>
+<div style="position:absolute;left:22.01px;top:790.06px" class="cls_035"><span class="cls_035">• FULL PAN OF SALAD</span></div>
+<div style="position:absolute;left:216.45px;top:790.06px" class="cls_035"><span class="cls_035">• XL PAN OF SALAD</span></div>
+<div style="position:absolute;left:992.46px;top:784.86px" class="cls_013"><span class="cls_013">Plainfield & Shorewood</span></div>
+<div style="position:absolute;left:29.01px;top:797.55px" class="cls_036"><span class="cls_036">(HOUSE OR CAESAR)</span></div>
+<div style="position:absolute;left:223.45px;top:797.55px" class="cls_036"><span class="cls_036">(HOUSE OR CAESAR)</span></div>
+<div style="position:absolute;left:20.58px;top:814.42px" class="cls_037"><span class="cls_037">Additional items extra. Not valid with other offers.</span></div>
+<div style="position:absolute;left:215.01px;top:814.42px" class="cls_037"><span class="cls_037">Additional items extra. Not valid with other offers.</span></div>
+<div style="position:absolute;left:410.68px;top:814.42px" class="cls_037"><span class="cls_037">Additional items extra. Not valid with other offers.</span></div>
+<div style="position:absolute;left:605.11px;top:814.42px" class="cls_037"><span class="cls_037">Additional items extra. Not valid with other offers.</span></div>
+<div style="position:absolute;left:801.88px;top:814.42px" class="cls_037"><span class="cls_037">Additional items extra. Not valid with other offers.</span></div>
+<div style="position:absolute;left:1004.61px;top:801.87px" class="cls_014"><span class="cls_014">(815) 254-2424</span></div>
+<div style="position:absolute;left:20.58px;top:820.64px" class="cls_037"><span class="cls_037">Place settings & serving utensils are extra.</span></div>
+<div style="position:absolute;left:215.01px;top:820.64px" class="cls_037"><span class="cls_037">Place settings & serving utensils are extra.</span></div>
+<div style="position:absolute;left:410.68px;top:820.64px" class="cls_037"><span class="cls_037">Place settings & serving utensils are extra.</span></div>
+<div style="position:absolute;left:605.11px;top:820.64px" class="cls_037"><span class="cls_037">Place settings & serving utensils are extra.</span></div>
+<div style="position:absolute;left:801.88px;top:820.64px" class="cls_037"><span class="cls_037">Place settings & serving utensils are extra.</span></div>
+<div style="position:absolute;left:20.58px;top:826.86px" class="cls_037"><span class="cls_037">Sternos & tray stands extra.</span></div>
+<div style="position:absolute;left:142.41px;top:827.09px" class="cls_037"><span class="cls_037">Offer expires 3/1/19</span></div>
+<div style="position:absolute;left:215.01px;top:826.86px" class="cls_037"><span class="cls_037">Sternos & tray stands extra.</span></div>
+<div style="position:absolute;left:336.85px;top:827.10px" class="cls_037"><span class="cls_037">Offer expires 3/1/19</span></div>
+<div style="position:absolute;left:410.68px;top:826.86px" class="cls_037"><span class="cls_037">Sternos & tray stands extra.</span></div>
+<div style="position:absolute;left:532.52px;top:827.10px" class="cls_037"><span class="cls_037">Offer expires 3/1/19</span></div>
+<div style="position:absolute;left:605.11px;top:826.86px" class="cls_037"><span class="cls_037">Sternos & tray stands extra.</span></div>
+<div style="position:absolute;left:726.95px;top:827.10px" class="cls_037"><span class="cls_037">Offer expires 3/1/19</span></div>
+<div style="position:absolute;left:801.88px;top:826.86px" class="cls_037"><span class="cls_037">Sternos & tray stands extra.</span></div>
+<div style="position:absolute;left:923.72px;top:827.10px" class="cls_037"><span class="cls_037">Offer expires 3/1/19</span></div>
+</div>
+
+</body>
+</html>

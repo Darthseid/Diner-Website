@@ -1,0 +1,589 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_020{font-family:Garamond,serif;font-size:50.8px;color:rgb(164,39,37);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_020{font-family:Garamond,serif;font-size:50.8px;color:rgb(164,39,37);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_021{font-family:Garamond,serif;font-size:33.2px;color:rgb(164,39,37);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_021{font-family:Garamond,serif;font-size:33.2px;color:rgb(164,39,37);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_023{font-family:Arial,serif;font-size:9.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_023{font-family:Arial,serif;font-size:9.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:12.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:12.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:11.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:11.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:9.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Arial,serif;font-size:9.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:8.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:8.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:28.0px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:28.0px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:48.0px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:48.0px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_039{font-family:Arial,serif;font-size:5.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_039{font-family:Arial,serif;font-size:5.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:15.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:15.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:9.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:9.1px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:6.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:6.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:10.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:10.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:13.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:13.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Arial,serif;font-size:9.4px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_029{font-family:Arial,serif;font-size:9.4px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:18.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:18.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_002{font-family:Arial,serif;font-size:14.7px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:14.7px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:20.6px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:20.6px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Garamond,serif;font-size:32.3px;color:rgb(164,39,37);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_030{font-family:Garamond,serif;font-size:32.3px;color:rgb(164,39,37);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_049{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_049{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Arial,serif;font-size:13.8px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Arial,serif;font-size:13.8px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_024{font-family:Arial,serif;font-size:15.5px;color:rgb(164,39,37);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Arial,serif;font-size:15.5px;color:rgb(164,39,37);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Arial,serif;font-size:15.5px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Arial,serif;font-size:15.5px;color:rgb(177,39,44);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_026{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:17.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:17.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_031{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:Arial,serif;font-size:7.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_022{font-family:Arial,serif;font-size:26.6px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Arial,serif;font-size:26.6px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:12.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_052{font-family:Garamond,serif;font-size:10.1px;color:rgb(254,255,255);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_052{font-family:Garamond,serif;font-size:10.1px;color:rgb(254,255,255);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_033{font-family:Garamond,serif;font-size:21.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Garamond,serif;font-size:21.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Garamond,serif;font-size:14.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_034{font-family:Garamond,serif;font-size:14.1px;color:rgb(254,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Garamond,serif;font-size:42.5px;color:rgb(164,39,37);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_016{font-family:Garamond,serif;font-size:42.5px;color:rgb(164,39,37);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_035{font-family:Arial,serif;font-size:7.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_035{font-family:Arial,serif;font-size:7.0px;color:rgb(254,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:10.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:10.1px;color:rgb(43,42,41);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_032{font-family:Garamond,serif;font-size:16.1px;color:rgb(255,212,74);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_032{font-family:Garamond,serif;font-size:16.1px;color:rgb(255,212,74);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_067{font-family:Arial,serif;font-size:7.5px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_067{font-family:Arial,serif;font-size:7.5px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_078{font-family:Arial,serif;font-size:18.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_078{font-family:Arial,serif;font-size:18.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_084{font-family:Arial,serif;font-size:7.9px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_084{font-family:Arial,serif;font-size:7.9px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_085{font-family:Arial,serif;font-size:7.9px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_085{font-family:Arial,serif;font-size:7.9px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_086{font-family:Arial,serif;font-size:7.9px;color:rgb(177,39,44);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_086{font-family:Arial,serif;font-size:7.9px;color:rgb(177,39,44);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_087{font-family:Arial,serif;font-size:7.9px;color:rgb(233,118,31);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_087{font-family:Arial,serif;font-size:7.9px;color:rgb(233,118,31);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_094{font-family:Arial,serif;font-size:11.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_094{font-family:Arial,serif;font-size:11.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_079{font-family:Arial,serif;font-size:8.4px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_079{font-family:Arial,serif;font-size:8.4px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_072{font-family:Arial,serif;font-size:8.6px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_072{font-family:Arial,serif;font-size:8.6px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_068{font-family:Arial,serif;font-size:10.4px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_068{font-family:Arial,serif;font-size:10.4px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_074{font-family:Arial,serif;font-size:8.2px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_074{font-family:Arial,serif;font-size:8.2px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_063{font-family:Arial,serif;font-size:8.5px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_063{font-family:Arial,serif;font-size:8.5px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_062{font-family:Arial,serif;font-size:8.5px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_062{font-family:Arial,serif;font-size:8.5px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_082{font-family:Arial,serif;font-size:8.3px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_082{font-family:Arial,serif;font-size:8.3px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_040{font-family:Arial,serif;font-size:4.9px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_040{font-family:Arial,serif;font-size:4.9px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_073{font-family:Arial,serif;font-size:8.2px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_073{font-family:Arial,serif;font-size:8.2px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_069{font-family:Arial,serif;font-size:8.5px;color:rgb(80,46,60);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_069{font-family:Arial,serif;font-size:8.5px;color:rgb(80,46,60);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_080{font-family:Arial,serif;font-size:8.3px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_080{font-family:Arial,serif;font-size:8.3px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_083{font-family:Arial,serif;font-size:8.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_083{font-family:Arial,serif;font-size:8.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_065{font-family:Arial,serif;font-size:21.7px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_065{font-family:Arial,serif;font-size:21.7px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_066{font-family:Arial,serif;font-size:11.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_066{font-family:Arial,serif;font-size:11.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_081{font-family:Arial,serif;font-size:8.3px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_081{font-family:Arial,serif;font-size:8.3px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_089{font-family:Arial,serif;font-size:6.5px;color:rgb(43,42,41);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_089{font-family:Arial,serif;font-size:6.5px;color:rgb(43,42,41);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_090{font-family:Arial,serif;font-size:6.0px;color:rgb(43,42,41);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_090{font-family:Arial,serif;font-size:6.0px;color:rgb(43,42,41);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_064{font-family:Arial,serif;font-size:11.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_064{font-family:Arial,serif;font-size:11.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_044{font-family:Arial,serif;font-size:9.8px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_044{font-family:Arial,serif;font-size:9.8px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_088{font-family:Arial,serif;font-size:8.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_088{font-family:Arial,serif;font-size:8.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_077{font-family:Arial,serif;font-size:23.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_077{font-family:Arial,serif;font-size:23.1px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_075{font-family:Arial,serif;font-size:8.6px;color:rgb(164,39,37);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_075{font-family:Arial,serif;font-size:8.6px;color:rgb(164,39,37);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_076{font-family:Arial,serif;font-size:8.6px;color:rgb(233,118,31);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_076{font-family:Arial,serif;font-size:8.6px;color:rgb(233,118,31);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_070{font-family:Arial,serif;font-size:10.6px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_070{font-family:Arial,serif;font-size:10.6px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_055{font-family:Arial,serif;font-size:8.9px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_055{font-family:Arial,serif;font-size:8.9px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_091{font-family:Arial,serif;font-size:7.5px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_091{font-family:Arial,serif;font-size:7.5px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_071{font-family:Arial,serif;font-size:9.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_071{font-family:Arial,serif;font-size:9.0px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_093{font-family:Arial,serif;font-size:11.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_093{font-family:Arial,serif;font-size:11.1px;color:rgb(43,42,41);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_092{font-family:Arial,serif;font-size:8.6px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_092{font-family:Arial,serif;font-size:8.6px;color:rgb(164,39,37);font-weight:normal;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="8f48f49e-ac03-11e8-b59b-0cc47a792c0a_id_8f48f49e-ac03-11e8-b59b-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-591px;top:0px;width:1182px;height:851px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8f48f49e-ac03-11e8-b59b-0cc47a792c0a_id_8f48f49e-ac03-11e8-b59b-0cc47a792c0a_files/background1.jpg" width=1182 height=851></div>
+<div style="position:absolute;left:164.42px;top:66.27px" class="cls_020"><span class="cls_020">S</span><span class="cls_021">andwiches</span></div>
+<div style="position:absolute;left:61.38px;top:133.90px" class="cls_023"><span class="cls_023">Our sandwiches are simply the best around! We oven</span></div>
+<div style="position:absolute;left:68.94px;top:143.90px" class="cls_023"><span class="cls_023">roast & season our beef, make our own meatballs</span></div>
+<div style="position:absolute;left:69.99px;top:153.89px" class="cls_023"><span class="cls_023">from scratch & use only the finest Italian Sausage</span></div>
+<div style="position:absolute;left:989.05px;top:167.82px" class="cls_004"><span class="cls_004">Voted</span></div>
+<div style="position:absolute;left:18.19px;top:179.90px" class="cls_017"><span class="cls_017">Caprese</span></div>
+<div style="position:absolute;left:191.44px;top:179.90px" class="cls_017"><span class="cls_017">Combo</span></div>
+<div style="position:absolute;left:26.19px;top:191.90px" class="cls_018"><span class="cls_018">Sliced tomatoes, fresh mozzarella</span></div>
+<div style="position:absolute;left:199.44px;top:191.90px" class="cls_018"><span class="cls_018">Italian beef & Italian sausage, with</span></div>
+<div style="position:absolute;left:26.19px;top:201.90px" class="cls_018"><span class="cls_018">and basil, drizzled with olive oil and</span></div>
+<div style="position:absolute;left:199.44px;top:201.90px" class="cls_018"><span class="cls_018">marinara sauce or natural gravy </span><span class="cls_019">6.99</span></div>
+<div style="position:absolute;left:26.19px;top:211.90px" class="cls_018"><span class="cls_018">balsamic glaze then baked in our</span></div>
+<div style="position:absolute;left:983.13px;top:171.89px" class="cls_005"><span class="cls_005"><sup>#</sup></span><span class="cls_006">1</span></div>
+<div style="position:absolute;left:191.44px;top:215.90px" class="cls_017"><span class="cls_017">BBQ Beef</span></div>
+<div style="position:absolute;left:26.19px;top:221.90px" class="cls_018"><span class="cls_018">pizza oven</span></div>
+<div style="position:absolute;left:77.56px;top:221.90px" class="cls_018"><span class="cls_018">6.99</span></div>
+<div style="position:absolute;left:1090.81px;top:224.24px" class="cls_039"><span class="cls_039">Not valid with any other offers</span></div>
+<div style="position:absolute;left:199.44px;top:227.90px" class="cls_018"><span class="cls_018">Our famous Italian beef smothered</span></div>
+<div style="position:absolute;left:982.03px;top:219.10px" class="cls_007"><span class="cls_007">PIZZA</span></div>
+<div style="position:absolute;left:18.19px;top:233.90px" class="cls_017"><span class="cls_017">The Vita Bella Beef</span></div>
+<div style="position:absolute;left:199.44px;top:237.90px" class="cls_018"><span class="cls_018">in zesty BBQ sauce </span><span class="cls_019">6.19</span></div>
+<div style="position:absolute;left:978.61px;top:235.10px" class="cls_008"><span class="cls_008">in Plainfield!</span></div>
+<div style="position:absolute;left:977.06px;top:245.51px" class="cls_009"><span class="cls_009">Plainfield Pizza Fest</span></div>
+<div style="position:absolute;left:26.19px;top:247.90px" class="cls_018"><span class="cls_018">Italian beef on garlic bread topped</span></div>
+<div style="position:absolute;left:191.44px;top:251.90px" class="cls_017"><span class="cls_017">Chicken Parmesan</span></div>
+<div style="position:absolute;left:26.19px;top:257.90px" class="cls_018"><span class="cls_018">with sweet or hot peppers & melted</span></div>
+<div style="position:absolute;left:199.44px;top:263.90px" class="cls_018"><span class="cls_018">With marinara sauce and melted</span></div>
+<div style="position:absolute;left:26.19px;top:267.90px" class="cls_018"><span class="cls_018">mozzarella cheese</span><span class="cls_019"> 7.99</span></div>
+<div style="position:absolute;left:199.44px;top:273.90px" class="cls_018"><span class="cls_018">cheese </span><span class="cls_019">6.99</span></div>
+<div style="position:absolute;left:18.19px;top:281.90px" class="cls_017"><span class="cls_017">Italian Beef</span></div>
+<div style="position:absolute;left:191.44px;top:287.90px" class="cls_017"><span class="cls_017">Meatball Sandwich</span></div>
+<div style="position:absolute;left:26.19px;top:293.90px" class="cls_018"><span class="cls_018">We roast it, spice it & slice it right</span></div>
+<div style="position:absolute;left:199.44px;top:299.90px" class="cls_018"><span class="cls_018">With marinara sauce </span><span class="cls_019">6.50</span></div>
+<div style="position:absolute;left:26.19px;top:303.90px" class="cls_018"><span class="cls_018">here </span><span class="cls_019">5.99</span></div>
+<div style="position:absolute;left:191.44px;top:311.90px" class="cls_017"><span class="cls_017">Vita Bella Sub</span></div>
+<div style="position:absolute;left:18.19px;top:317.90px" class="cls_017"><span class="cls_017">Italian Sausage</span></div>
+<div style="position:absolute;left:199.44px;top:323.90px" class="cls_018"><span class="cls_018">Assorted Italian deli meats: Mort-</span></div>
+<div style="position:absolute;left:26.19px;top:329.90px" class="cls_018"><span class="cls_018">With marinara sauce or natural</span></div>
+<div style="position:absolute;left:199.44px;top:333.90px" class="cls_018"><span class="cls_018">adella, Cappicola, Genoa Salami,</span></div>
+<div style="position:absolute;left:26.19px;top:339.90px" class="cls_018"><span class="cls_018">gravy </span><span class="cls_019">5.99</span></div>
+<div style="position:absolute;left:199.44px;top:343.90px" class="cls_018"><span class="cls_018">lettuce, onions, tomato and cheese</span></div>
+<div style="position:absolute;left:18.19px;top:353.90px" class="cls_017"><span class="cls_017">Cheesy Beef</span></div>
+<div style="position:absolute;left:199.44px;top:353.90px" class="cls_018"><span class="cls_018">with our house vinaigrette dressing</span></div>
+<div style="position:absolute;left:475.11px;top:314.54px" class="cls_020"><span class="cls_020">C</span><span class="cls_021">atering</span></div>
+<div style="position:absolute;left:26.19px;top:365.90px" class="cls_018"><span class="cls_018">Our delicious home cooked Italian</span></div>
+<div style="position:absolute;left:199.44px;top:363.90px" class="cls_018"><span class="cls_018">6.99</span></div>
+<div style="position:absolute;left:26.19px;top:375.90px" class="cls_018"><span class="cls_018">beef on fresh French bread</span></div>
+<div style="position:absolute;left:424.39px;top:374.25px" class="cls_015"><span class="cls_015">We offer a large array of Pastas, Salads, Desserts and</span></div>
+<div style="position:absolute;left:191.44px;top:377.90px" class="cls_017"><span class="cls_017">Chicken Breast</span></div>
+<div style="position:absolute;left:26.19px;top:385.90px" class="cls_018"><span class="cls_018">smothered with mozzarella cheese</span></div>
+<div style="position:absolute;left:462.47px;top:385.25px" class="cls_015"><span class="cls_015">Catering Packages for all occasions!</span></div>
+<div style="position:absolute;left:199.44px;top:389.90px" class="cls_018"><span class="cls_018">With melted mozzarella, lettuce and</span></div>
+<div style="position:absolute;left:26.19px;top:396.90px" class="cls_019"><span class="cls_019">6.99</span></div>
+<div style="position:absolute;left:199.44px;top:399.90px" class="cls_018"><span class="cls_018">tomato </span><span class="cls_019">6.99</span></div>
+<div style="position:absolute;left:373.08px;top:398.25px" class="cls_015"><span class="cls_015">Request our catering menu or visit our website at </span><A HREF="http://www.vitabellapizza.com/">www.VitaBellaPizza.com</A> </div>
+<div style="position:absolute;left:1090.81px;top:417.64px" class="cls_039"><span class="cls_039">Not valid with any other offers</span></div>
+<div style="position:absolute;left:95.33px;top:418.44px" class="cls_018"><span class="cls_018">ADD FRENCH FRIES TO ANY SANDWICH 1.49</span></div>
+<div style="position:absolute;left:69.29px;top:429.44px" class="cls_018"><span class="cls_018">ADD SWEET, HOT PEPPERS OR ROASTED RED PEPPERS  .50</span></div>
+<div style="position:absolute;left:145.20px;top:440.44px" class="cls_018"><span class="cls_018">ADD MARINARA .50</span></div>
+<div style="position:absolute;left:104.81px;top:451.44px" class="cls_018"><span class="cls_018">ANY SANDWICH ON GARLIC BREAD .79</span></div>
+<div style="position:absolute;left:130.89px;top:462.43px" class="cls_018"><span class="cls_018">WITH MELTED CHEESE 1.00</span></div>
+<div style="position:absolute;left:373.90px;top:504.00px" class="cls_014"><span class="cls_014">Delivery to Plainfield, Shorewood,</span></div>
+<div style="position:absolute;left:429.45px;top:519.00px" class="cls_014"><span class="cls_014">Joliet & Cresthill</span></div>
+<div style="position:absolute;left:392.67px;top:535.67px" class="cls_029"><span class="cls_029">Hours: Sunday - Thursday 11am - 10pm</span></div>
+<div style="position:absolute;left:403.46px;top:546.67px" class="cls_029"><span class="cls_029">Friday & Saturday 11am - Midnight</span></div>
+<div style="position:absolute;left:755.36px;top:542.16px" class="cls_011"><span class="cls_011">Serving All Your Italian Favorites!</span></div>
+<div style="position:absolute;left:64.65px;top:536.62px" class="cls_020"><span class="cls_020">D</span><span class="cls_021">esserts</span></div>
+<div style="position:absolute;left:741.85px;top:566.69px" class="cls_002"><span class="cls_002">Fast Hot Delivery </span><span class="cls_003">•</span><span class="cls_002"> Carryout </span><span class="cls_003">•</span><span class="cls_002"> Catering </span><span class="cls_003">• </span><span class="cls_002">Dine-In</span></div>
+<div style="position:absolute;left:384.86px;top:557.73px" class="cls_030"><span class="cls_030">(815) 254-2424</span></div>
+<div style="position:absolute;left:596.21px;top:583.98px" class="cls_015"><span class="cls_015">2215 S. Rt. 59 • Plainfield</span></div>
+<div style="position:absolute;left:597.61px;top:595.98px" class="cls_049"><span class="cls_049">(Just South of Caton Farm on Rt. 59)\</span></div>
+<div style="position:absolute;left:1090.81px;top:611.15px" class="cls_039"><span class="cls_039">Not valid with any other offers</span></div>
+<div style="position:absolute;left:18.19px;top:609.06px" class="cls_017"><span class="cls_017">Tiramisu</span></div>
+<div style="position:absolute;left:396.05px;top:607.91px" class="cls_028"><span class="cls_028">Fresh Hot Delivery • Carryout • Dine-In • Catering</span></div>
+<div style="position:absolute;left:26.19px;top:621.06px" class="cls_018"><span class="cls_018">Our Homemade specialty. Italian</span></div>
+<div style="position:absolute;left:26.19px;top:631.06px" class="cls_018"><span class="cls_018">cookies (lady fingers) with thick lay-</span></div>
+<div style="position:absolute;left:26.19px;top:641.06px" class="cls_018"><span class="cls_018">ers of Mascarpone cream cheese,</span></div>
+<div style="position:absolute;left:417.48px;top:634.81px" class="cls_024"><span class="cls_024">Order Online!</span><span class="cls_025"> </span><A HREF="http://www.vitabellapizza.com/">www.VitaBellaPizza.com</A> </span></div>
+<div style="position:absolute;left:26.19px;top:651.06px" class="cls_018"><span class="cls_018">Brandy, sweet Marsala and espres-</span></div>
+<div style="position:absolute;left:491.13px;top:654.80px" class="cls_019"><span class="cls_019">No personal checks accepted</span></div>
+<div style="position:absolute;left:26.19px;top:661.06px" class="cls_018"><span class="cls_018">so topped with cocoa powder and</span></div>
+<div style="position:absolute;left:442.14px;top:662.80px" class="cls_019"><span class="cls_019">Prices and menu items subject to change without notice</span></div>
+<div style="position:absolute;left:26.19px;top:671.06px" class="cls_018"><span class="cls_018">biscotti 3.25</span></div>
+<div style="position:absolute;left:772.86px;top:662.27px" class="cls_012"><span class="cls_012">Serving Plainfield, Shorewood,</span></div>
+<div style="position:absolute;left:676.74px;top:677.29px" class="cls_031"><span class="cls_031">Rev 12/7/17</span></div>
+<div style="position:absolute;left:181.59px;top:662.00px" class="cls_022"><span class="cls_022">Beverages</span></div>
+<div style="position:absolute;left:18.19px;top:685.06px" class="cls_017"><span class="cls_017">Cannoli</span></div>
+<div style="position:absolute;left:833.58px;top:679.27px" class="cls_012"><span class="cls_012">Joliet & Cresthill</span></div>
+<div style="position:absolute;left:26.19px;top:697.06px" class="cls_018"><span class="cls_018">2.25</span></div>
+<div style="position:absolute;left:262.73px;top:698.86px" class="cls_015"><span class="cls_015">Coke</span></div>
+<div style="position:absolute;left:831.42px;top:698.27px" class="cls_013"><span class="cls_013">2215 S. Rt. 59 </span><span class="cls_014">•</span><span class="cls_013"> Plainfield</span></div>
+<div style="position:absolute;left:497.04px;top:706.66px" class="cls_052"><span class="cls_052">TAKE ADVANTAGE OF</span></div>
+<div style="position:absolute;left:18.19px;top:711.06px" class="cls_017"><span class="cls_017">Cheesecake</span></div>
+<div style="position:absolute;left:252.89px;top:710.86px" class="cls_015"><span class="cls_015">Diet Coke</span></div>
+<div style="position:absolute;left:816.33px;top:712.27px" class="cls_015"><span class="cls_015">(Just South of Caton Farm on Rt. 59)</span></div>
+<div style="position:absolute;left:26.19px;top:723.06px" class="cls_018"><span class="cls_018">Simply delicious 2.75</span></div>
+<div style="position:absolute;left:256.94px;top:722.86px" class="cls_015"><span class="cls_015">Orange</span></div>
+<div style="position:absolute;left:450.77px;top:715.97px" class="cls_033"><span class="cls_033">ITA BELLA REWARD</span></div>
+<div style="position:absolute;left:262.03px;top:734.86px" class="cls_015"><span class="cls_015">Sprite</span></div>
+<div style="position:absolute;left:478.90px;top:739.97px" class="cls_034"><span class="cls_034">EAT, EARN, & ENJOY!</span></div>
+<div style="position:absolute;left:237.85px;top:746.86px" class="cls_015"><span class="cls_015">Barq’s Root Beer</span></div>
+<div style="position:absolute;left:776.03px;top:721.42px" class="cls_016"><span class="cls_016">(815) 254-2424</span></div>
+<div style="position:absolute;left:255.86px;top:758.86px" class="cls_015"><span class="cls_015">Iced Tea</span></div>
+<div style="position:absolute;left:421.42px;top:754.91px" class="cls_004"><span class="cls_004">• </span><span class="cls_008">For Every $1 You Spend, Your Earn 1 Point </span><span class="cls_035">(tax & tip not included)</span></div>
+<div style="position:absolute;left:417.48px;top:765.91px" class="cls_004"><span class="cls_004">• </span><span class="cls_008">For Every 150 Points Receive a $10 Off Reward! </span><span class="cls_035">(valid for 60 days)</span></div>
+<div style="position:absolute;left:204.32px;top:773.86px" class="cls_019"><span class="cls_019">Can .85</span></div>
+<div style="position:absolute;left:246.72px;top:773.86px" class="cls_019"><span class="cls_019">2 Liter 2.25</span></div>
+<div style="position:absolute;left:299.55px;top:773.86px" class="cls_019"><span class="cls_019">6 pack 3.99</span></div>
+<div style="position:absolute;left:819.93px;top:778.41px" class="cls_010"><span class="cls_010">Sunday - Thursday 11am - 10pm</span></div>
+<div style="position:absolute;left:396.62px;top:780.79px" class="cls_032"><span class="cls_032">•• SIGN-UP TODAY @ VitaBellaPizza.com ••</span></div>
+<div style="position:absolute;left:234.64px;top:791.86px" class="cls_018"><span class="cls_018">Bottled Water</span></div>
+<div style="position:absolute;left:298.43px;top:792.86px" class="cls_019"><span class="cls_019">1.50</span></div>
+<div style="position:absolute;left:813.37px;top:790.41px" class="cls_010"><span class="cls_010">Friday & Saturday 11am - Midnight</span></div>
+<div style="position:absolute;left:1090.81px;top:804.33px" class="cls_039"><span class="cls_039">Not valid with any other offers</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-591px;top:861px;width:1182px;height:851px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="8f48f49e-ac03-11e8-b59b-0cc47a792c0a_id_8f48f49e-ac03-11e8-b59b-0cc47a792c0a_files/background2.jpg" width=1182 height=851></div>
+<div style="position:absolute;left:512.36px;top:9.52px" class="cls_020"><span class="cls_020">P</span><span class="cls_021">izza</span></div>
+<div style="position:absolute;left:477.53px;top:69.01px" class="cls_067"><span class="cls_067">Mouth watering combinations to entice any</span></div>
+<div style="position:absolute;left:271.12px;top:35.27px" class="cls_020"><span class="cls_020">A</span><span class="cls_021">ppetizers</span></div>
+<div style="position:absolute;left:478.59px;top:79.01px" class="cls_067"><span class="cls_067">pizza enthusiast. Choose your style. Pricing</span></div>
+<div style="position:absolute;left:412.77px;top:91.73px" class="cls_049"><span class="cls_049">,</span></div>
+<div style="position:absolute;left:478.35px;top:89.01px" class="cls_067"><span class="cls_067">is based on traditional thin crust. Our other</span></div>
+<div style="position:absolute;left:331.77px;top:99.73px" class="cls_049"><span class="cls_049">which has ZERO Trans Fat!</span></div>
+<div style="position:absolute;left:476.88px;top:99.01px" class="cls_067"><span class="cls_067">crusts are also available at an extra charge.</span></div>
+<div style="position:absolute;left:864.95px;top:67.64px" class="cls_020"><span class="cls_020">P</span><span class="cls_021">astas</span></div>
+<div style="position:absolute;left:287.75px;top:115.90px" class="cls_017"><span class="cls_017">Zucchini Sticks</span></div>
+<div style="position:absolute;left:847.79px;top:121.93px" class="cls_049"><span class="cls_049">Regular serves 1-2, Family serves 4-6</span></div>
+<div style="position:absolute;left:579.89px;top:114.47px" class="cls_078"><span class="cls_078">Specialty Pizzas</span></div>
+<div style="position:absolute;left:295.75px;top:127.90px" class="cls_018"><span class="cls_018">3/4 lb fried zucchini with marinara</span></div>
+<div style="position:absolute;left:295.75px;top:137.90px" class="cls_018"><span class="cls_018">sauce 6.49</span></div>
+<div style="position:absolute;left:885.88px;top:139.67px" class="cls_049"><span class="cls_049">A generous portion of pasta, prepared in the old world Italian tradition.</span></div>
+<div style="position:absolute;left:568.75px;top:141.62px" class="cls_084"><span class="cls_084">Ind. 10” </span><span class="cls_085">11.75,</span><span class="cls_086"> </span><span class="cls_084">Sm. 12” </span><span class="cls_085">16.50, </span><span class="cls_084">Reg. 14” </span><span class="cls_085">19.75</span></div>
+<div style="position:absolute;left:117.80px;top:141.65px" class="cls_017"><span class="cls_017">Chicken Tenders</span></div>
+<div style="position:absolute;left:929.18px;top:146.67px" class="cls_049"><span class="cls_049">Served with garlic bread and grated cheese.</span></div>
+<div style="position:absolute;left:563.45px;top:151.62px" class="cls_084"><span class="cls_084">Fam. 16” </span><span class="cls_085">23.75,</span><span class="cls_086"> </span><span class="cls_084">Jum. 18” </span><span class="cls_085">26.50,</span><span class="cls_087"> </span><span class="cls_084">Pty. 20” </span><span class="cls_085">32.99</span></div>
+<div style="position:absolute;left:125.80px;top:153.65px" class="cls_018"><span class="cls_018">6 pieces all white meat tenders</span></div>
+<div style="position:absolute;left:287.75px;top:151.90px" class="cls_017"><span class="cls_017">Dough Nuggets</span></div>
+<div style="position:absolute;left:875.53px;top:158.95px" class="cls_094"><span class="cls_094">Choose a sauce for your pasta:</span><span class="cls_017"> </span><span class="cls_018">Marinara, Meat Sauce,</span></div>
+<div style="position:absolute;left:125.80px;top:163.65px" class="cls_018"><span class="cls_018">served with bbq sauce or honey</span></div>
+<div style="position:absolute;left:295.75px;top:163.90px" class="cls_018"><span class="cls_018">Covered with sugar. Served with</span></div>
+<div style="position:absolute;left:476.42px;top:164.10px" class="cls_015"><span class="cls_015">Pick 4</span></div>
+<div style="position:absolute;left:652.48px;top:164.10px" class="cls_015"><span class="cls_015">Hawaiian Luau</span></div>
+<div style="position:absolute;left:838.52px;top:170.95px" class="cls_018"><span class="cls_018">Arrabiata (A spicy marinara sauce) or Alfredo (Add Alfredo for an extra charge)</span></div>
+<div style="position:absolute;left:125.80px;top:173.65px" class="cls_018"><span class="cls_018">6.99</span></div>
+<div style="position:absolute;left:295.75px;top:173.90px" class="cls_018"><span class="cls_018">cream cheese frosting</span></div>
+<div style="position:absolute;left:484.42px;top:174.89px" class="cls_079"><span class="cls_079">A combination of any four of your</span></div>
+<div style="position:absolute;left:660.48px;top:175.10px" class="cls_072"><span class="cls_072">A taste of the Islands with fresh pineap-</span></div>
+<div style="position:absolute;left:295.75px;top:183.90px" class="cls_018"><span class="cls_018">(1/2lb) 2.99</span></div>
+<div style="position:absolute;left:349.93px;top:183.90px" class="cls_018"><span class="cls_018">(1lb) 3.99</span></div>
+<div style="position:absolute;left:484.42px;top:183.99px" class="cls_079"><span class="cls_079">favorite ingredients</span></div>
+<div style="position:absolute;left:660.48px;top:184.60px" class="cls_072"><span class="cls_072">ple paired with Canadian bacon, fresh</span></div>
+<div style="position:absolute;left:117.80px;top:187.65px" class="cls_017"><span class="cls_017">Breaded Mushrooms </span><span class="cls_018">(3/4 lb)</span></div>
+<div style="position:absolute;left:660.48px;top:194.10px" class="cls_072"><span class="cls_072">tomato & barbeque sauce</span></div>
+<div style="position:absolute;left:833.04px;top:192.03px" class="cls_068"><span class="cls_068">Linguini or Mostaccioli</span></div>
+<div style="position:absolute;left:1009.59px;top:191.41px" class="cls_017"><span class="cls_017">Ravioli Pomodoro</span></div>
+<div style="position:absolute;left:476.42px;top:195.29px" class="cls_015"><span class="cls_015">Alfredo Pizza</span></div>
+<div style="position:absolute;left:125.80px;top:199.65px" class="cls_018"><span class="cls_018">Served with Ranch dipping sauce</span></div>
+<div style="position:absolute;left:287.75px;top:197.90px" class="cls_017"><span class="cls_017">Homemade Bread Sticks</span></div>
+<div style="position:absolute;left:841.04px;top:202.91px" class="cls_018"><span class="cls_018">With your choice of sauce</span></div>
+<div style="position:absolute;left:1017.59px;top:202.91px" class="cls_018"><span class="cls_018">Cheese ravioli with garlic butter &</span></div>
+<div style="position:absolute;left:484.42px;top:206.64px" class="cls_074"><span class="cls_074">Homemade Alfredo sauce topped with</span></div>
+<div style="position:absolute;left:652.48px;top:205.04px" class="cls_015"><span class="cls_015">Italian Beef Deluxe</span></div>
+<div style="position:absolute;left:125.80px;top:209.65px" class="cls_018"><span class="cls_018">6.49</span></div>
+<div style="position:absolute;left:295.75px;top:209.90px" class="cls_018"><span class="cls_018">Served with red sauce 4.10</span></div>
+<div style="position:absolute;left:841.04px;top:212.97px" class="cls_063"><span class="cls_063">Regular 7.99, </span><span class="cls_062">Family 23.99</span></div>
+<div style="position:absolute;left:1017.59px;top:212.41px" class="cls_018"><span class="cls_018">marinara sauce</span></div>
+<div style="position:absolute;left:484.42px;top:216.14px" class="cls_074"><span class="cls_074">fresh chunks of chicken breast & broccoli</span></div>
+<div style="position:absolute;left:660.14px;top:215.88px" class="cls_082"><span class="cls_082">Garlic butter crust with marinara sauce</span></div>
+<div style="position:absolute;left:21.09px;top:224.30px" class="cls_040"><span class="cls_040">Please mention coupons when ordering</span></div>
+<div style="position:absolute;left:1017.59px;top:222.47px" class="cls_063"><span class="cls_063">Regular 8.99,</span><span class="cls_062"> Family 26.99</span></div>
+<div style="position:absolute;left:117.80px;top:223.65px" class="cls_017"><span class="cls_017">Mozzarella Sticks</span></div>
+<div style="position:absolute;left:287.75px;top:223.90px" class="cls_017"><span class="cls_017">Beefy Bread</span></div>
+<div style="position:absolute;left:660.14px;top:224.98px" class="cls_082"><span class="cls_082">topped with homemade Italian beef and</span></div>
+<div style="position:absolute;left:476.42px;top:227.29px" class="cls_015"><span class="cls_015">Sausage Classic</span></div>
+<div style="position:absolute;left:833.04px;top:225.41px" class="cls_017"><span class="cls_017">Cheese or Meat Ravioli</span></div>
+<div style="position:absolute;left:125.80px;top:235.65px" class="cls_018"><span class="cls_018">Fried mozzarella sticks (8) with</span></div>
+<div style="position:absolute;left:295.75px;top:235.90px" class="cls_018"><span class="cls_018">Toasted French bread soaked in</span></div>
+<div style="position:absolute;left:660.14px;top:234.08px" class="cls_082"><span class="cls_082">your choice of sweet or hot peppers</span></div>
+<div style="position:absolute;left:484.42px;top:238.29px" class="cls_072"><span class="cls_072">A delicious blend of Italian sausage,</span></div>
+<div style="position:absolute;left:841.04px;top:237.47px" class="cls_063"><span class="cls_063">Regular 8.99, </span><span class="cls_062">Family 26.99</span></div>
+<div style="position:absolute;left:1009.59px;top:234.91px" class="cls_017"><span class="cls_017">Chicken Parmigiana</span></div>
+<div style="position:absolute;left:125.80px;top:245.65px" class="cls_018"><span class="cls_018">marinara sauce 6.49</span></div>
+<div style="position:absolute;left:295.75px;top:245.90px" class="cls_018"><span class="cls_018">homemade beef juice 2.19</span></div>
+<div style="position:absolute;left:484.42px;top:247.79px" class="cls_072"><span class="cls_072">mushrooms, onion & green pepper</span></div>
+<div style="position:absolute;left:652.48px;top:245.33px" class="cls_015"><span class="cls_015">White Pizza</span></div>
+<div style="position:absolute;left:1017.59px;top:246.91px" class="cls_018"><span class="cls_018">Fresh chicken breast with marinara</span></div>
+<div style="position:absolute;left:833.04px;top:249.91px" class="cls_017"><span class="cls_017">Angel Hair Pomodoro</span></div>
+<div style="position:absolute;left:287.75px;top:257.90px" class="cls_018"><span class="cls_018">With Melted Cheese 3.49</span></div>
+<div style="position:absolute;left:660.48px;top:256.33px" class="cls_072"><span class="cls_072">We use olive oil in place of our regular</span></div>
+<div style="position:absolute;left:1017.59px;top:256.91px" class="cls_018"><span class="cls_018">sauce on a bed of fettuccini &</span></div>
+<div style="position:absolute;left:117.80px;top:259.65px" class="cls_017"><span class="cls_017">Jalapeño Poppers</span></div>
+<div style="position:absolute;left:476.42px;top:259.29px" class="cls_015"><span class="cls_015">Pepperoni Classic</span></div>
+<div style="position:absolute;left:841.04px;top:261.41px" class="cls_018"><span class="cls_018">Thin round noodles with marinara</span></div>
+<div style="position:absolute;left:660.48px;top:265.84px" class="cls_072"><span class="cls_072">pizza sauce, fresh garlic, ricotta cheese</span></div>
+<div style="position:absolute;left:1017.59px;top:266.91px" class="cls_018"><span class="cls_018">covered with melted mozzarella</span></div>
+<div style="position:absolute;left:125.80px;top:271.65px" class="cls_018"><span class="cls_018">8 cream cheese poppers with</span></div>
+<div style="position:absolute;left:484.42px;top:270.68px" class="cls_073"><span class="cls_073">A mouth watering symphony of pepperoni,</span></div>
+<div style="position:absolute;left:841.04px;top:270.91px" class="cls_018"><span class="cls_018">sauce, fresh garlic, tomatoes</span></div>
+<div style="position:absolute;left:287.75px;top:273.90px" class="cls_017"><span class="cls_017">Pizza Bread</span><span class="cls_018"> 3.99</span></div>
+<div style="position:absolute;left:660.48px;top:275.34px" class="cls_072"><span class="cls_072">& tomatoes</span></div>
+<div style="position:absolute;left:1017.59px;top:276.91px" class="cls_018"><span class="cls_018">cheese </span><span class="cls_063">Regular 10.99,</span><span class="cls_069"> </span><span class="cls_062">Family 32.99</span></div>
+<div style="position:absolute;left:125.80px;top:281.65px" class="cls_018"><span class="cls_018">Ranch dipping sauce 6.49</span></div>
+<div style="position:absolute;left:484.42px;top:280.18px" class="cls_073"><span class="cls_073">mushrooms, onion & green pepper</span></div>
+<div style="position:absolute;left:841.04px;top:280.42px" class="cls_018"><span class="cls_018">and basil </span><span class="cls_063">Regular 8.99,</span><span class="cls_062"> Family 26.99</span></div>
+<div style="position:absolute;left:652.48px;top:286.83px" class="cls_015"><span class="cls_015">Margherita</span></div>
+<div style="position:absolute;left:287.75px;top:291.90px" class="cls_017"><span class="cls_017">Garlic Bread</span><span class="cls_018"> 1.99</span></div>
+<div style="position:absolute;left:476.42px;top:291.29px" class="cls_015"><span class="cls_015">Vegetarian Deluxe</span></div>
+<div style="position:absolute;left:1009.59px;top:289.91px" class="cls_017"><span class="cls_017">Penne Alfredo with Chicken</span></div>
+<div style="position:absolute;left:117.80px;top:295.65px" class="cls_017"><span class="cls_017">Onion Rings </span><span class="cls_018">(3/4 lb)</span></div>
+<div style="position:absolute;left:660.14px;top:297.83px" class="cls_072"><span class="cls_072">Roma tomatoes, chopped basil and</span></div>
+<div style="position:absolute;left:833.04px;top:293.41px" class="cls_017"><span class="cls_017">Shells and Cheese</span></div>
+<div style="position:absolute;left:484.42px;top:302.55px" class="cls_080"><span class="cls_080">A garden-fresh delight with mushrooms,</span></div>
+<div style="position:absolute;left:1017.59px;top:301.91px" class="cls_018"><span class="cls_018">Penne noodles, Alfredo sauce &</span></div>
+<div style="position:absolute;left:125.80px;top:307.65px" class="cls_018"><span class="cls_018">Served with Ranch dipping sauce</span></div>
+<div style="position:absolute;left:660.14px;top:307.34px" class="cls_072"><span class="cls_072">fresh mozzarella</span></div>
+<div style="position:absolute;left:841.04px;top:304.91px" class="cls_018"><span class="cls_018">Large shells tossed in our gourmet</span></div>
+<div style="position:absolute;left:287.75px;top:309.90px" class="cls_017"><span class="cls_017">French Fries</span><span class="cls_018"> 2.10</span></div>
+<div style="position:absolute;left:484.42px;top:312.05px" class="cls_080"><span class="cls_080">onion, green pepper & fresh tomato</span></div>
+<div style="position:absolute;left:1017.59px;top:311.91px" class="cls_018"><span class="cls_018">chunks of fresh chicken breast</span></div>
+<div style="position:absolute;left:841.04px;top:314.41px" class="cls_018"><span class="cls_018">cheese sauce, covered with bread</span></div>
+<div style="position:absolute;left:125.80px;top:317.65px" class="cls_018"><span class="cls_018">6.49</span></div>
+<div style="position:absolute;left:652.48px;top:321.83px" class="cls_015"><span class="cls_015">Spinach Classic</span></div>
+<div style="position:absolute;left:1017.59px;top:322.47px" class="cls_063"><span class="cls_063">Regular 10.99,</span><span class="cls_062"> Family 32.99</span></div>
+<div style="position:absolute;left:476.42px;top:323.29px" class="cls_015"><span class="cls_015">Meat Classic</span></div>
+<div style="position:absolute;left:841.04px;top:323.92px" class="cls_018"><span class="cls_018">crumbs and then baked</span></div>
+<div style="position:absolute;left:117.80px;top:331.65px" class="cls_017"><span class="cls_017">Spinach &</span></div>
+<div style="position:absolute;left:484.42px;top:334.29px" class="cls_072"><span class="cls_072">A must for hearty appetites...</span></div>
+<div style="position:absolute;left:660.48px;top:333.27px" class="cls_083"><span class="cls_083">Zesty trio of spinach, garlic & fresh tomato</span></div>
+<div style="position:absolute;left:841.04px;top:333.97px" class="cls_063"><span class="cls_063">Regular 8.99, </span><span class="cls_062">Family 26.99</span></div>
+<div style="position:absolute;left:1009.59px;top:334.91px" class="cls_017"><span class="cls_017">Baked Lasagna</span></div>
+<div style="position:absolute;left:267.46px;top:329.47px" class="cls_065"><span class="cls_065">buffalo wings</span></div>
+<div style="position:absolute;left:484.42px;top:343.79px" class="cls_072"><span class="cls_072">Pepperoni, sausage, Canadian bacon</span></div>
+<div style="position:absolute;left:117.80px;top:343.65px" class="cls_017"><span class="cls_017">Tomato Garlic Bread</span></div>
+<div style="position:absolute;left:1017.59px;top:346.91px" class="cls_018"><span class="cls_018">Homemade from the family recipe.</span></div>
+<div style="position:absolute;left:652.48px;top:347.33px" class="cls_015"><span class="cls_015">The Works</span></div>
+<div style="position:absolute;left:833.04px;top:346.41px" class="cls_017"><span class="cls_017">Fettuccini Alfredo</span></div>
+<div style="position:absolute;left:484.42px;top:353.30px" class="cls_072"><span class="cls_072">& ground beef</span></div>
+<div style="position:absolute;left:125.80px;top:355.65px" class="cls_018"><span class="cls_018">Topped with melted mozzarella</span></div>
+<div style="position:absolute;left:293.79px;top:356.75px" class="cls_066"><span class="cls_066">6 wings</span><span class="cls_017"> </span><span class="cls_015">6.99</span></div>
+<div style="position:absolute;left:371.66px;top:356.75px" class="cls_066"><span class="cls_066">12 wings</span><span class="cls_017"> </span><span class="cls_015">11.99</span></div>
+<div style="position:absolute;left:660.48px;top:358.33px" class="cls_072"><span class="cls_072">A Vita Bella original, generous portions</span></div>
+<div style="position:absolute;left:841.04px;top:357.91px" class="cls_018"><span class="cls_018">Traditional pasta with Alfredo sauce</span></div>
+<div style="position:absolute;left:1017.59px;top:356.91px" class="cls_018"><span class="cls_018">Layers of ribbon noodles & four</span></div>
+<div style="position:absolute;left:125.80px;top:365.64px" class="cls_018"><span class="cls_018">4.49</span></div>
+<div style="position:absolute;left:476.42px;top:364.79px" class="cls_015"><span class="cls_015">BBQ Special</span></div>
+<div style="position:absolute;left:660.48px;top:367.84px" class="cls_072"><span class="cls_072">of sausage, pepperoni, ground beef,</span></div>
+<div style="position:absolute;left:841.04px;top:367.97px" class="cls_063"><span class="cls_063">Regular 9.99, </span><span class="cls_062">Family 26.99</span></div>
+<div style="position:absolute;left:1017.59px;top:366.91px" class="cls_018"><span class="cls_018">cheeses smothered in marinara</span></div>
+<div style="position:absolute;left:330.78px;top:371.75px" class="cls_066"><span class="cls_066">20 wings</span><span class="cls_017"> </span><span class="cls_015">19.99</span></div>
+<div style="position:absolute;left:484.42px;top:376.00px" class="cls_081"><span class="cls_081">An Old Western blend of sausage,</span></div>
+<div style="position:absolute;left:660.48px;top:377.34px" class="cls_072"><span class="cls_072">bacon, mushrooms, onion, green olives,</span></div>
+<div style="position:absolute;left:1017.59px;top:376.91px" class="cls_018"><span class="cls_018">sauce & covered with melted</span></div>
+<div style="position:absolute;left:117.80px;top:379.65px" class="cls_017"><span class="cls_017">Garlic Bread with Cheese</span></div>
+<div style="position:absolute;left:833.04px;top:380.41px" class="cls_017"><span class="cls_017">Baked Mostaccioli</span></div>
+<div style="position:absolute;left:484.42px;top:385.51px" class="cls_081"><span class="cls_081">onion, bacon & tangy barbeque sauce</span></div>
+<div style="position:absolute;left:660.48px;top:386.84px" class="cls_072"><span class="cls_072">green pepper & black olives, all on our</span></div>
+<div style="position:absolute;left:1017.59px;top:386.91px" class="cls_018"><span class="cls_018">mozzarella </span><span class="cls_063">Regular 9.99,</span><span class="cls_069"> </span><span class="cls_062">Family 29.99</span></div>
+<div style="position:absolute;left:321.55px;top:388.75px" class="cls_018"><span class="cls_018">Traditional Buffalo-Style</span></div>
+<div style="position:absolute;left:125.80px;top:391.65px" class="cls_018"><span class="cls_018">Topped with melted mozzarella</span></div>
+<div style="position:absolute;left:841.04px;top:391.91px" class="cls_018"><span class="cls_018">Covered with melted mozzarella</span></div>
+<div style="position:absolute;left:328.55px;top:398.75px" class="cls_018"><span class="cls_018">non-breaded wings</span></div>
+<div style="position:absolute;left:476.42px;top:396.79px" class="cls_015"><span class="cls_015">BBQ Chicken</span></div>
+<div style="position:absolute;left:660.48px;top:396.34px" class="cls_072"><span class="cls_072">double dough crust</span></div>
+<div style="position:absolute;left:125.80px;top:401.65px" class="cls_018"><span class="cls_018">3.49</span></div>
+<div style="position:absolute;left:841.04px;top:401.97px" class="cls_063"><span class="cls_063">Regular 8.99,</span><span class="cls_062"> Family 26.99</span></div>
+<div style="position:absolute;left:1009.59px;top:401.53px" class="cls_068"><span class="cls_068">Add Italian Sausage</span></div>
+<div style="position:absolute;left:484.42px;top:407.79px" class="cls_072"><span class="cls_072">Sweet and tangy BBQ sauce topped</span></div>
+<div style="position:absolute;left:21.09px;top:417.80px" class="cls_040"><span class="cls_040">Please mention coupons when ordering</span></div>
+<div style="position:absolute;left:297.28px;top:412.75px" class="cls_018"><span class="cls_018">Served with Ranch or Bleu Cheese</span></div>
+<div style="position:absolute;left:1009.59px;top:413.47px" class="cls_063"><span class="cls_063">Regular (1) 3.00,</span><span class="cls_069"> </span><span class="cls_062">Family 8.00</span></div>
+<div style="position:absolute;left:117.80px;top:415.65px" class="cls_017"><span class="cls_017">Calamari</span></div>
+<div style="position:absolute;left:484.42px;top:417.29px" class="cls_072"><span class="cls_072">with grilled chicken, bacon,</span></div>
+<div style="position:absolute;left:833.04px;top:414.41px" class="cls_017"><span class="cls_017">Penne Broccoli</span></div>
+<div style="position:absolute;left:125.80px;top:427.65px" class="cls_018"><span class="cls_018">Lightly breaded calamari served</span></div>
+<div style="position:absolute;left:484.42px;top:426.80px" class="cls_072"><span class="cls_072">provolone and mozzarella</span></div>
+<div style="position:absolute;left:841.04px;top:426.41px" class="cls_018"><span class="cls_018">Pasta with olive oil, fresh garlic &</span></div>
+<div style="position:absolute;left:1009.59px;top:427.53px" class="cls_068"><span class="cls_068">Add Jumbo Meatballs</span></div>
+<div style="position:absolute;left:302.60px;top:432.75px" class="cls_019"><span class="cls_019">(Larger orders available, please ask)</span></div>
+<div style="position:absolute;left:125.80px;top:437.65px" class="cls_018"><span class="cls_018">with marinara sauce & lemon</span></div>
+<div style="position:absolute;left:841.04px;top:436.41px" class="cls_018"><span class="cls_018">broccoli </span><span class="cls_063">Regular 9.49, </span><span class="cls_062">Family 28.99</span></div>
+<div style="position:absolute;left:1009.59px;top:439.47px" class="cls_063"><span class="cls_063">Regular (2) 3.00,</span><span class="cls_069"> </span><span class="cls_062">Family 8.00</span></div>
+<div style="position:absolute;left:125.80px;top:447.64px" class="cls_018"><span class="cls_018">wedge 7.99</span></div>
+<div style="position:absolute;left:549.16px;top:437.20px" class="cls_078"><span class="cls_078">Create Your Own Pizza</span></div>
+<div style="position:absolute;left:833.04px;top:450.41px" class="cls_017"><span class="cls_017">Mostaccioli Alforno</span></div>
+<div style="position:absolute;left:1009.59px;top:453.53px" class="cls_068"><span class="cls_068">Add Chicken</span></div>
+<div style="position:absolute;left:473.20px;top:460.63px" class="cls_015"><span class="cls_015">Traditional Thin Crust</span></div>
+<div style="position:absolute;left:652.48px;top:460.63px" class="cls_015"><span class="cls_015">Chicago Style Deep Dish</span></div>
+<div style="position:absolute;left:841.04px;top:462.41px" class="cls_018"><span class="cls_018">Noodles covered in marinara,</span></div>
+<div style="position:absolute;left:1009.59px;top:465.47px" class="cls_063"><span class="cls_063">Regular (1) 3.00,</span><span class="cls_069"> </span><span class="cls_062">Family 8.00</span></div>
+<div style="position:absolute;left:481.20px;top:472.02px" class="cls_073"><span class="cls_073">A Vita Bella specialty, our light, flaky crust</span></div>
+<div style="position:absolute;left:660.48px;top:471.63px" class="cls_072"><span class="cls_072">Our Family speciality. A pan-cooked,</span></div>
+<div style="position:absolute;left:841.04px;top:472.41px" class="cls_018"><span class="cls_018">ricotta cheese and melted</span></div>
+<div style="position:absolute;left:481.20px;top:481.52px" class="cls_073"><span class="cls_073">is always crispy & golden brown</span></div>
+<div style="position:absolute;left:660.48px;top:481.13px" class="cls_072"><span class="cls_072">thick, buttery crust smothered with</span></div>
+<div style="position:absolute;left:841.04px;top:482.41px" class="cls_018"><span class="cls_018">mozzarella </span><span class="cls_063">Regular 9.99,</span><span class="cls_069"> </span><span class="cls_062">Family 29.99</span></div>
+<div style="position:absolute;left:282.24px;top:447.14px" class="cls_020"><span class="cls_020">C</span><span class="cls_021">alzones</span></div>
+<div style="position:absolute;left:660.48px;top:490.64px" class="cls_072"><span class="cls_072">cheese, your toppings & covered with</span></div>
+<div style="position:absolute;left:473.20px;top:492.63px" class="cls_015"><span class="cls_015">Double Dough Pizza</span></div>
+<div style="position:absolute;left:660.48px;top:500.14px" class="cls_072"><span class="cls_072">our gourmet chunky tomato sauce.</span></div>
+<div style="position:absolute;left:882.08px;top:498.50px" class="cls_017"><span class="cls_017">*Substitute Any Pasta with Gluten Free Penne Pasta</span></div>
+<div style="position:absolute;left:287.75px;top:506.25px" class="cls_049"><span class="cls_049">Oven baked calzones are made from scratch</span></div>
+<div style="position:absolute;left:481.20px;top:503.63px" class="cls_072"><span class="cls_072">Our own creation. This pizza features</span></div>
+<div style="position:absolute;left:660.48px;top:509.64px" class="cls_072"><span class="cls_072">(Please allow 40 minutes)</span></div>
+<div style="position:absolute;left:845.55px;top:512.00px" class="cls_089"><span class="cls_089">*Disclaimer:</span><span class="cls_090"> While we offer a gluten-free penne pasta, we are not a gluten-free kitchen. Cross-contamination</span></div>
+<div style="position:absolute;left:287.75px;top:514.25px" class="cls_049"><span class="cls_049">and filled with our special blend of cheeses.</span></div>
+<div style="position:absolute;left:481.20px;top:513.13px" class="cls_072"><span class="cls_072">a hand-rolled edge that is twice as</span></div>
+<div style="position:absolute;left:845.55px;top:518.50px" class="cls_090"><span class="cls_090">could occur and our restaurant is unable to guarantee that this menu item can be completely free of allergens.</span></div>
+<div style="position:absolute;left:321.70px;top:522.26px" class="cls_049"><span class="cls_049">Served with marinara sauce.</span></div>
+<div style="position:absolute;left:481.20px;top:522.63px" class="cls_072"><span class="cls_072">thick as our traditional thin crust pizza</span></div>
+<div style="position:absolute;left:652.48px;top:521.13px" class="cls_015"><span class="cls_015">Stuffed Pizza</span></div>
+<div style="position:absolute;left:660.48px;top:532.13px" class="cls_072"><span class="cls_072">This pizza is baked like a pie. Two</span></div>
+<div style="position:absolute;left:287.75px;top:533.86px" class="cls_017"><span class="cls_017">Filled with Fresh Cheese </span><span class="cls_018">6.95</span></div>
+<div style="position:absolute;left:473.20px;top:534.13px" class="cls_015"><span class="cls_015">Pan Pizza</span></div>
+<div style="position:absolute;left:660.48px;top:541.63px" class="cls_072"><span class="cls_072">layers of crust stuffed with cheese &</span></div>
+<div style="position:absolute;left:481.20px;top:545.47px" class="cls_074"><span class="cls_074">This pizza features a thick & tasty crust</span></div>
+<div style="position:absolute;left:287.75px;top:550.96px" class="cls_017"><span class="cls_017">Add Ingredients </span><span class="cls_064">(each)</span><span class="cls_017"> </span><span class="cls_018">.99</span></div>
+<div style="position:absolute;left:660.48px;top:551.14px" class="cls_072"><span class="cls_072">your toppings. The top layer of crust</span></div>
+<div style="position:absolute;left:481.20px;top:554.98px" class="cls_074"><span class="cls_074">topped with your favorite ingredients &</span></div>
+<div style="position:absolute;left:660.48px;top:560.64px" class="cls_072"><span class="cls_072">is covered with our delicious sauce.</span></div>
+<div style="position:absolute;left:481.20px;top:564.48px" class="cls_074"><span class="cls_074">lots of cheese. (Please allow 35 minutes)</span></div>
+<div style="position:absolute;left:660.48px;top:570.14px" class="cls_072"><span class="cls_072">(Please allow 45 minutes)</span></div>
+<div style="position:absolute;left:478.92px;top:585.40px" class="cls_044"><span class="cls_044">*GLUTEN-FREE CRUST</span><span class="cls_088"> AVAILABLE IN 10-INCH THIN CRUST PIZZA ON REQUEST add 2.00</span></div>
+<div style="position:absolute;left:123.07px;top:553.20px" class="cls_020"><span class="cls_020">S</span><span class="cls_021">alads</span></div>
+<div style="position:absolute;left:478.92px;top:597.64px" class="cls_089"><span class="cls_089">*Disclaimer:</span><span class="cls_090"> While we offer a gluten-free pizza crust, we are not a gluten-free kitchen. Cross-contamination could</span></div>
+<div style="position:absolute;left:138.21px;top:606.99px" class="cls_049"><span class="cls_049">Regular serves 1-2, Family serves 4-6</span></div>
+<div style="position:absolute;left:478.92px;top:605.15px" class="cls_090"><span class="cls_090">occur and our restaurant is unable to guarantee that this menu item can be completely free of allergens.</span></div>
+<div style="position:absolute;left:21.09px;top:611.30px" class="cls_040"><span class="cls_040">Please mention coupons when ordering</span></div>
+<div style="position:absolute;left:117.80px;top:620.78px" class="cls_017"><span class="cls_017">House Salad</span></div>
+<div style="position:absolute;left:287.60px;top:620.78px" class="cls_017"><span class="cls_017">Caprese Salad</span></div>
+<div style="position:absolute;left:125.80px;top:633.34px" class="cls_062"><span class="cls_062">Spring mix lettuce, cucumbers, carrots, red</span></div>
+<div style="position:absolute;left:295.60px;top:632.78px" class="cls_018"><span class="cls_018">Fresh Spring Greens, sliced</span></div>
+<div style="position:absolute;left:479.93px;top:617.99px" class="cls_077"><span class="cls_077">fresh ingredients</span></div>
+<div style="position:absolute;left:864.96px;top:596.72px" class="cls_020"><span class="cls_020">R</span><span class="cls_021">ibs,</span></div>
+<div style="position:absolute;left:125.80px;top:643.34px" class="cls_062"><span class="cls_062">cabbage, tomatoes & red onion with choice</span></div>
+<div style="position:absolute;left:295.60px;top:642.78px" class="cls_018"><span class="cls_018">tomatoes, fresh mozzarella and</span></div>
+<div style="position:absolute;left:498.21px;top:647.04px" class="cls_075"><span class="cls_075">MEATS:</span><span class="cls_072">  Italian Sausage, Pepperoni, Canadian Bacon, Ground Beef,</span></div>
+<div style="position:absolute;left:125.80px;top:653.33px" class="cls_062"><span class="cls_062">of dressing </span><span class="cls_063">Regular 4.99,</span><span class="cls_062"> Family 14.99</span></div>
+<div style="position:absolute;left:295.60px;top:652.77px" class="cls_018"><span class="cls_018">basil with extra-virgin olive oil and</span></div>
+<div style="position:absolute;left:498.21px;top:656.55px" class="cls_072"><span class="cls_072">Italian Beef, Bacon, Chicken, Shrimp</span></div>
+<div style="position:absolute;left:295.60px;top:662.77px" class="cls_018"><span class="cls_018">balsamic vinegar</span></div>
+<div style="position:absolute;left:117.80px;top:666.78px" class="cls_017"><span class="cls_017">Caesar Salad</span></div>
+<div style="position:absolute;left:498.21px;top:668.55px" class="cls_075"><span class="cls_075">VEGGIES:</span><span class="cls_076">  </span><span class="cls_072">Mushroom, Onion,  Green Pepper, Fresh Tomatoes, Black</span></div>
+<div style="position:absolute;left:295.60px;top:673.33px" class="cls_063"><span class="cls_063">Regular 6.99,</span><span class="cls_062"> Family 20.99</span></div>
+<div style="position:absolute;left:125.80px;top:679.34px" class="cls_062"><span class="cls_062">An Italian Classic. Romaine lettuce</span></div>
+<div style="position:absolute;left:498.21px;top:678.05px" class="cls_072"><span class="cls_072">Olives, Green Olives, Spinach, Broccoli</span></div>
+<div style="position:absolute;left:894.34px;top:641.72px" class="cls_020"><span class="cls_020">S</span><span class="cls_021">hrimp & </span><span class="cls_020">C</span><span class="cls_021">hicken</span></div>
+<div style="position:absolute;left:125.80px;top:689.34px" class="cls_062"><span class="cls_062">tossed with a creamy Caesar dressing,</span></div>
+<div style="position:absolute;left:287.60px;top:686.78px" class="cls_017"><span class="cls_017">Walnut Gorgonzola Salad</span></div>
+<div style="position:absolute;left:498.21px;top:690.05px" class="cls_075"><span class="cls_075">GOURMET:</span><span class="cls_076"> </span><span class="cls_072">Pineapple, Ricotta Cheese, Fresh Garlic, Anchovies,</span></div>
+<div style="position:absolute;left:125.80px;top:699.33px" class="cls_062"><span class="cls_062">fresh parmesan cheese & croutons</span></div>
+<div style="position:absolute;left:295.60px;top:698.78px" class="cls_018"><span class="cls_018">Green apple slices, walnuts,</span></div>
+<div style="position:absolute;left:498.21px;top:699.56px" class="cls_072"><span class="cls_072">Jalapeno Peppers, Hot Giardinera, Roasted Red Pepper, Fresh Basil,</span></div>
+<div style="position:absolute;left:125.80px;top:709.33px" class="cls_063"><span class="cls_063">Regular 4.99, </span><span class="cls_062">Family 14.99</span></div>
+<div style="position:absolute;left:295.60px;top:708.78px" class="cls_018"><span class="cls_018">avocado, cranberries and</span></div>
+<div style="position:absolute;left:498.21px;top:709.06px" class="cls_072"><span class="cls_072">Fior di Latte Mozzarella</span></div>
+<div style="position:absolute;left:842.75px;top:705.75px" class="cls_070"><span class="cls_070">Vita Bella’s Famous Baby Back Ribs</span></div>
+<div style="position:absolute;left:1018.25px;top:705.75px" class="cls_017"><span class="cls_017">Fried Shrimp Dinner</span></div>
+<div style="position:absolute;left:295.60px;top:718.77px" class="cls_018"><span class="cls_018">crumbled Gorgonzola tossed</span></div>
+<div style="position:absolute;left:850.75px;top:717.93px" class="cls_055"><span class="cls_055">A full rack of our delicious ribs,</span></div>
+<div style="position:absolute;left:1026.25px;top:717.75px" class="cls_018"><span class="cls_018">Golden brown fantail shrimp</span></div>
+<div style="position:absolute;left:131.98px;top:720.78px" class="cls_018"><span class="cls_018">Add Chicken  </span><span class="cls_023">2.00, </span><span class="cls_018">5.00</span></div>
+<div style="position:absolute;left:578.18px;top:727.31px" class="cls_091"><span class="cls_091">Ind.</span></div>
+<div style="position:absolute;left:612.78px;top:727.31px" class="cls_091"><span class="cls_091">Small</span></div>
+<div style="position:absolute;left:646.73px;top:727.31px" class="cls_091"><span class="cls_091">Regular    Family</span></div>
+<div style="position:absolute;left:725.62px;top:727.31px" class="cls_091"><span class="cls_091">Jumbo</span></div>
+<div style="position:absolute;left:767.86px;top:727.31px" class="cls_091"><span class="cls_091">Party</span></div>
+<div style="position:absolute;left:295.60px;top:728.77px" class="cls_018"><span class="cls_018">with mixed greens</span></div>
+<div style="position:absolute;left:850.75px;top:727.93px" class="cls_055"><span class="cls_055">baked in our own secret barbecue</span></div>
+<div style="position:absolute;left:1026.25px;top:727.74px" class="cls_018"><span class="cls_018">served with French fries, French</span></div>
+<div style="position:absolute;left:578.60px;top:735.31px" class="cls_091"><span class="cls_091">10”</span></div>
+<div style="position:absolute;left:616.71px;top:735.31px" class="cls_091"><span class="cls_091">12”</span></div>
+<div style="position:absolute;left:654.78px;top:735.31px" class="cls_091"><span class="cls_091">14”</span></div>
+<div style="position:absolute;left:692.63px;top:735.31px" class="cls_091"><span class="cls_091">16”</span></div>
+<div style="position:absolute;left:731.64px;top:735.31px" class="cls_091"><span class="cls_091">18”</span></div>
+<div style="position:absolute;left:770.27px;top:735.31px" class="cls_091"><span class="cls_091">20”</span></div>
+<div style="position:absolute;left:117.80px;top:734.78px" class="cls_017"><span class="cls_017">Antipasto Salad</span></div>
+<div style="position:absolute;left:295.60px;top:739.33px" class="cls_063"><span class="cls_063">Regular 8.50,</span><span class="cls_062"> Family 24.99</span></div>
+<div style="position:absolute;left:850.75px;top:737.93px" class="cls_055"><span class="cls_055">sauce. Served with French bread &</span></div>
+<div style="position:absolute;left:1026.25px;top:737.74px" class="cls_018"><span class="cls_018">bread & cocktail sauce</span></div>
+<div style="position:absolute;left:125.80px;top:746.78px" class="cls_018"><span class="cls_018">Italian deli meats: Mortadella,</span></div>
+<div style="position:absolute;left:478.95px;top:748.31px" class="cls_072"><span class="cls_072">Thin Crust Cheese</span></div>
+<div style="position:absolute;left:575.61px;top:748.31px" class="cls_072"><span class="cls_072">8.49</span></div>
+<div style="position:absolute;left:611.25px;top:748.31px" class="cls_072"><span class="cls_072">10.99</span></div>
+<div style="position:absolute;left:649.36px;top:748.31px" class="cls_072"><span class="cls_072">13.99</span></div>
+<div style="position:absolute;left:687.28px;top:748.31px" class="cls_072"><span class="cls_072">16.99</span></div>
+<div style="position:absolute;left:726.30px;top:748.31px" class="cls_072"><span class="cls_072">18.99</span></div>
+<div style="position:absolute;left:764.90px;top:748.31px" class="cls_072"><span class="cls_072">22.99</span></div>
+<div style="position:absolute;left:850.75px;top:747.75px" class="cls_055"><span class="cls_055">French fries</span><span class="cls_018"> 18.99</span></div>
+<div style="position:absolute;left:1026.25px;top:747.75px" class="cls_071"><span class="cls_071">(1/2 lb.) </span><span class="cls_018">8.99 </span><span class="cls_071">(1 lb.) </span><span class="cls_018">16.99</span></div>
+<div style="position:absolute;left:125.80px;top:756.78px" class="cls_018"><span class="cls_018">Cappicola, Genoa Salami, cheese,</span></div>
+<div style="position:absolute;left:343.39px;top:755.43px" class="cls_093"><span class="cls_093">Dressings</span></div>
+<div style="position:absolute;left:478.95px;top:762.31px" class="cls_072"><span class="cls_072">Double Dough</span></div>
+<div style="position:absolute;left:842.75px;top:761.80px" class="cls_064"><span class="cls_064">Fried Chicken Dinner</span></div>
+<div style="position:absolute;left:125.80px;top:766.78px" class="cls_018"><span class="cls_018">tomatoes, Pepperoncini peppers,</span></div>
+<div style="position:absolute;left:301.27px;top:768.43px" class="cls_019"><span class="cls_019">Italian, Ranch, Caesar, Bleu Cheese,</span></div>
+<div style="position:absolute;left:478.95px;top:770.81px" class="cls_072"><span class="cls_072">Cheese</span></div>
+<div style="position:absolute;left:575.61px;top:770.81px" class="cls_072"><span class="cls_072">9.49</span></div>
+<div style="position:absolute;left:612.34px;top:770.81px" class="cls_072"><span class="cls_072">11.99</span></div>
+<div style="position:absolute;left:649.43px;top:770.81px" class="cls_072"><span class="cls_072">15.99</span></div>
+<div style="position:absolute;left:687.31px;top:770.81px" class="cls_072"><span class="cls_072">18.99</span></div>
+<div style="position:absolute;left:725.79px;top:770.81px" class="cls_072"><span class="cls_072">20.99</span></div>
+<div style="position:absolute;left:764.90px;top:770.81px" class="cls_072"><span class="cls_072">25.49</span></div>
+<div style="position:absolute;left:850.75px;top:773.79px" class="cls_071"><span class="cls_071">Half a chicken fried golden brown</span></div>
+<div style="position:absolute;left:125.80px;top:776.78px" class="cls_018"><span class="cls_018">black olives and mixed greens</span></div>
+<div style="position:absolute;left:299.23px;top:777.43px" class="cls_019"><span class="cls_019">1000 Island, Balsamic, Pomagranate,</span></div>
+<div style="position:absolute;left:478.95px;top:784.81px" class="cls_072"><span class="cls_072">Pan, Deep Dish</span></div>
+<div style="position:absolute;left:850.75px;top:783.79px" class="cls_071"><span class="cls_071">served with French fries and French</span></div>
+<div style="position:absolute;left:125.80px;top:786.78px" class="cls_018"><span class="cls_018">tossed with our House dressing</span></div>
+<div style="position:absolute;left:318.77px;top:786.43px" class="cls_019"><span class="cls_019">French and Creamy Garlic</span></div>
+<div style="position:absolute;left:478.95px;top:793.31px" class="cls_072"><span class="cls_072">and Stuffed Cheese</span></div>
+<div style="position:absolute;left:582.14px;top:793.31px" class="cls_072"><span class="cls_072">-</span></div>
+<div style="position:absolute;left:611.44px;top:793.31px" class="cls_072"><span class="cls_072">15.99</span></div>
+<div style="position:absolute;left:658.13px;top:793.31px" class="cls_072"><span class="cls_072">-</span></div>
+<div style="position:absolute;left:687.99px;top:793.31px" class="cls_072"><span class="cls_072">21.99</span></div>
+<div style="position:absolute;left:735.13px;top:793.31px" class="cls_072"><span class="cls_072">-</span></div>
+<div style="position:absolute;left:774.24px;top:793.31px" class="cls_072"><span class="cls_072">-</span></div>
+<div style="position:absolute;left:850.75px;top:793.75px" class="cls_071"><span class="cls_071">bread</span><span class="cls_018"> 7.99</span></div>
+<div style="position:absolute;left:125.80px;top:797.34px" class="cls_063"><span class="cls_063">Regular 6.99,</span><span class="cls_062"> Family 20.99</span></div>
+<div style="position:absolute;left:21.09px;top:804.80px" class="cls_040"><span class="cls_040">Please mention coupons when ordering</span></div>
+<div style="position:absolute;left:478.95px;top:807.31px" class="cls_092"><span class="cls_092">Additional</span></div>
+<div style="position:absolute;left:478.95px;top:815.81px" class="cls_092"><span class="cls_092">Ingredients</span></div>
+<div style="position:absolute;left:576.19px;top:815.81px" class="cls_092"><span class="cls_092">1.39</span></div>
+<div style="position:absolute;left:614.19px;top:815.81px" class="cls_092"><span class="cls_092">1.95</span></div>
+<div style="position:absolute;left:651.61px;top:815.81px" class="cls_092"><span class="cls_092">2.25</span></div>
+<div style="position:absolute;left:690.21px;top:815.81px" class="cls_092"><span class="cls_092">2.75</span></div>
+<div style="position:absolute;left:728.62px;top:815.81px" class="cls_092"><span class="cls_092">2.99</span></div>
+<div style="position:absolute;left:767.72px;top:815.81px" class="cls_092"><span class="cls_092">3.49</span></div>
+</div>
+
+</body>
+</html>
