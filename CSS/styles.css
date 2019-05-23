@@ -336,6 +336,7 @@ locationsPageCont
 	line-height: 79px;
 	display: block;
 	float: left;
+		margin-left: 20px;
 	margin-right: 25px;
 }
 .header-link:hover
@@ -633,6 +634,14 @@ span.gc-cs-link,
 	position: relative;
 	
 }
+
+#footerContShort
+{
+	top: 160px;
+	position: relative;
+	
+}
+
 
 #footer-rewards-20141022
 {
