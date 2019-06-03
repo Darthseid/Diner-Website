@@ -9,6 +9,16 @@ body
 	line-height:16px;
 	background:#2b1324 repeat;
 }
+p
+{
+	font-size:15px;
+	font-family:Helvetica, serif;
+	 line-height: 200%;
+}
+#exquisite
+{
+	margin-bottom:2em;
+}
 #container 
 {
 	width:1006px;
@@ -215,8 +225,14 @@ body
 #leftContPizzaContent 
 {
 	width:566px;
-	height:313px;
-	padding:0 20px 20px 20px;
+	height:913px;
+	padding:0 20px 60px 20px;
+}
+.pizza_options
+{
+line-height:150%;
+font-size:13px;
+margin-top:1%;
 }
 /*  Locations Page Styles  */
 #pizzaPageCont
@@ -308,7 +324,7 @@ locationsPageCont
 {
 	width:630px;
 	height:50px;
-	padding-top:10px;
+	padding-bottom:10px;
 	padding-left:25px
 }
 #locationCont 
@@ -440,12 +456,17 @@ locationsPageCont
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff602b50,endColorstr=#ff2b1324,GradientType=0);
 	display: inline-block;
 	padding: 10px;
-	
 	font-size: 14px;
 	font-weight: bold;
 	zoom: 1;
 	*display: inline;
+	float:left;
+	bottom:44px;
+	 overflow: visible;
+	 	 margin-left: 15px;
+	 margin-bottom:5px;
 }
+
 .location-phone
 {
 	font-size: 20px;
@@ -461,12 +482,27 @@ span.gc-cs-link,
 .location-delivery-area,
 .location-links,
 .location-hours,
-.location-phone{
-	margin-bottom: 20px;
+.location-phone
+{
+		margin-bottom: 37px;
+		margin-top:10px;
+
+	}
+.Availability
+{
+	margin-top:8em;
 }
 .location-wrapper
 {
 	margin-bottom: 20px;
+}
+#view
+{
+
+}
+#order
+{
+margin-top: 1em;
 }
 .vita-bella
 {
